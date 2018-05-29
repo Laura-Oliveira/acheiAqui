@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6e9e32d4c39cc68351bb80b578a884ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c3e82fb1c9566473b6103d0a324b6f1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/911a8b8e9208ca8c576afc9471f3efad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2d49f54b341ab92bafd7d627d3d81cd9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1691dce9f550a09bece4456128a0d6e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/659bc5dfea68a74a28660fff6f8cf28a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/24111ffa05bf791c44e34e4cdcd23c0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/44e1c4de3861edb7e1a4b4c8249ac5f0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/16939e72787d9aac2a10605c67ddec62/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0c13b83a0ac0c4e993841965454e5cf7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e0f44b806212baba61710d7df3cabfcd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcff6bc259c4fea2020c03dca2c37d5d/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c3e82fb1c9566473b6103d0a324b6f1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c3e82fb1c9566473b6103d0a324b6f1/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:9:9-44
+	android:icon
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:7:9-39
+	android:allowBackup
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:11:9-40
+activity#acheiaqui.com.acheiaqui.ProfileShopActivity
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:12:19-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:16:27-74
+activity#acheiaqui.com.acheiaqui.HomeActivity
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:19:9-50
+	android:name
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:19:19-47
+activity#acheiaqui.com.acheiaqui.RegisterShopActivity
+ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:20:9-67
+	android:name
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml:20:19-55
+uses-sdk
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6e9e32d4c39cc68351bb80b578a884ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6e9e32d4c39cc68351bb80b578a884ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c3e82fb1c9566473b6103d0a324b6f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c3e82fb1c9566473b6103d0a324b6f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/911a8b8e9208ca8c576afc9471f3efad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/911a8b8e9208ca8c576afc9471f3efad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2d49f54b341ab92bafd7d627d3d81cd9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2d49f54b341ab92bafd7d627d3d81cd9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1691dce9f550a09bece4456128a0d6e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1691dce9f550a09bece4456128a0d6e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/659bc5dfea68a74a28660fff6f8cf28a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/659bc5dfea68a74a28660fff6f8cf28a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/24111ffa05bf791c44e34e4cdcd23c0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/24111ffa05bf791c44e34e4cdcd23c0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/44e1c4de3861edb7e1a4b4c8249ac5f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/laura/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/44e1c4de3861edb7e1a4b4c8249ac5f0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/16939e72787d9aac2a10605c67ddec62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/16939e72787d9aac2a10605c67ddec62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0c13b83a0ac0c4e993841965454e5cf7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0c13b83a0ac0c4e993841965454e5cf7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e0f44b806212baba61710d7df3cabfcd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e0f44b806212baba61710d7df3cabfcd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcff6bc259c4fea2020c03dca2c37d5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/laura/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcff6bc259c4fea2020c03dca2c37d5d/AndroidManifest.xml:20:5-44
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		ADDED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml
+		INJECTED from /home/laura/Documentos/rep-achei-aqui/acheiAqui/app/src/main/AndroidManifest.xml

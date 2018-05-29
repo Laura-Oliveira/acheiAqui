@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">acheiAqui</string>
+    <string name="app_name">Achei Aqui</string>
+    <string name="buscar_button">Buscar</string>
+    <string name="title_shop">Estabelecimentos</string>
 </resources>

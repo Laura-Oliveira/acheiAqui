@@ -2,4 +2,12 @@
     <string name="app_name">Achei Aqui</string>
     <string name="buscar_button">Buscar</string>
     <string name="title_shop">Estabelecimentos</string>
+    <string name="action_register"> Cadastrar</string>
+    <string name="name_shop">Nome do estabelecimento</string>
+    <string name="reference_point"> Pontos de referência</string>
+    <string name="fixed_shop"> Estabelecimento Fixo</string>
+    <string name="mobile_shop"> Estabelecimento móvel</string>
+    <string name="shop_color"> Cor ou cores do estabelecimento</string>
+    <string name="registered_shop">Estabelecimento registrado com sucesso!</string>
+    <string name="btn_home">Página Princial</string>
 </resources>

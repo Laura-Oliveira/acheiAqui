@@ -22,7 +22,7 @@ public class ProfileShopActivity extends AppCompatActivity
         ListView profileShopList = (ListView) findViewById(R.id.profile_shop_listView);
         //porque eu preciso passar de um contexto para criar uma lista?
        // ArrayAdapter<String> nameShopAdapter = ;
-        profileShopList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, (List<String>) profileShopList));
+        profileShopList.setAdapter(new ArrayAdapter<String>(this, R.layout.shop_name_listitem, (List<String>) profileShopList));
 
 
     }

@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterShopActivity">
-
-    <LinearLayout
-        android:id="@+id/cadastro_form"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    tools:context=".RegisterShopActivity"
+    android:orientation="vertical">
 
         <EditText
             android:id="@+id/name_shop"
@@ -27,12 +19,6 @@
             android:textColor="@color/cor_texto"
             android:textColorHint="@color/cor_texto" />
 
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
         <EditText
             android:id="@+id/reference_point"
             android:layout_width="match_parent"
@@ -44,13 +30,7 @@
             android:textColor="@color/cor_texto"
             android:textColorHint="@color/cor_texto" />
 
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <AutoCompleteTextView
+        <EditText
             android:id="@+id/shop_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,11 +39,10 @@
             android:maxLines="1"
             android:singleLine="true"
             android:textColor="@color/cor_texto"
-            android:textColorHint="@color/cor_texto" />
+            android:textColorHint="@color/cor_texto"
+            />
 
-    </android.support.design.widget.TextInputLayout>
-
-
+    
     <RadioGroup
     android:id="@+id/radioButtonGroup"
     android:layout_width="wrap_content"
@@ -95,16 +74,23 @@
 
     </RadioGroup>
 
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
     <Button
-        android:id="@+id/cadastrar"
-        style="?android:textAppearanceSmall"
+        android:id="@+id/btn_register"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginTop="20dp"
+        android:textSize="10pt"
         android:background="@color/button"
         android:text="@string/action_register"
         android:textColor="@color/cor_texto_button"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="onClickButton"
+        android:layout_alignParentBottom="true"
+        />
 
-    </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+        </RelativeLayout>
+</LinearLayout>

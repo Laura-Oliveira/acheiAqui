@@ -11,9 +11,9 @@ public class HomeActivity extends AppCompatActivity
 {
 
     private static final Shop[] nameShop = {
-            new Shop("Catatau", "O mestre dos salgados"),
-            new Shop("Hamburgao do Roberto Carlos", "O Rei dos hamburguers"),
-            new Shop("Barraquinha da Tia", "A tia que sempre tem aquele guaraná do Amazonas")
+            /*new Shop("Catatau", "O mestre dos salgados", "Galandru"),
+            new Shop("Hamburgao do Roberto Carlos", "O Rei dos hamburguers", "Cair Paravel"),
+            new Shop("Barraquinha da Tia", "A tia que sempre tem aquele guaraná do Amazonas", "Moria")*/
     };
 
     @Override

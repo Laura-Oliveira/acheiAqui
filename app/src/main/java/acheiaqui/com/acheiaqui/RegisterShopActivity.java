@@ -40,7 +40,7 @@ public class RegisterShopActivity extends AppCompatActivity {
 
         dbReference.push().setValue(newShop);
 
-        //Intent intent = new Intent(RegisterShopActivity.this,ConfirmShopActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(RegisterShopActivity.this,ConfirmShopActivity.class);
+        startActivity(intent);
     }
 }

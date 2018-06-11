@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+            "outputFile": "C:\\Users\\Ramon\\Documents\\PDM\\acheiAqui\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
-                    "source": "/home/laura/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/44e1c4de3861edb7e1a4b4c8249ac5f0/res/values-in/values-in.xml",
+                    "source": "C:\\Users\\Ramon\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0fa8e7a89890557e77dbb046845440a6\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -13,21 +13,45 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "21",
                         "startColumns": "4",
-                        "startOffsets": "1948",
+                        "startOffsets": "2139",
                         "endColumns": "100",
-                        "endOffsets": "2044"
+                        "endOffsets": "2235"
                     }
                 },
                 {
-                    "source": "/home/laura/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6e9e32d4c39cc68351bb80b578a884ba/res/values-in/values-in.xml",
+                    "source": "C:\\Users\\Ramon\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\37f535aac9a92f4290d9985468847313\\res\\values-in\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "190",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1864",
+                        "endColumns": "190",
+                        "endOffsets": "2050"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ramon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ac378975683c129f28b580505adbc846\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "105,215,317,422,509,613,729,811,890,976,1079,1188,1289,1393,1501,1609,1765,1864",
                         "endColumns": "109,101,104,86,103,115,81,78,85,102,108,100,103,107,107,155,98,83",
                         "endOffsets": "210,312,417,504,608,724,806,885,971,1074,1183,1284,1388,1496,1604,1760,1859,1943"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,317,422,509,613,729,811,890,976,1079,1188,1289,1393,1501,1609,1765,2055",
+                        "endColumns": "109,101,104,86,103,115,81,78,85,102,108,100,103,107,107,155,98,83",
+                        "endOffsets": "210,312,417,504,608,724,806,885,971,1074,1183,1284,1388,1496,1604,1760,1859,2134"
                     }
                 }
             ]

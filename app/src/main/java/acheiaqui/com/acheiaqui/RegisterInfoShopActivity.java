@@ -9,7 +9,7 @@ import android.widget.EditText;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class RegisterShopActivity extends AppCompatActivity {
+public class RegisterInfoShopActivity extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -40,7 +40,7 @@ public class RegisterShopActivity extends AppCompatActivity {
 
         dbReference.push().setValue(newShop);
 
-        Intent intent = new Intent(RegisterShopActivity.this,ConfirmShopActivity.class);
+        Intent intent = new Intent(RegisterInfoShopActivity.this,ConfirmShopActivity.class);
         startActivity(intent);
     }
 }

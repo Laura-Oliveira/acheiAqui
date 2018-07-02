@@ -16,7 +16,7 @@ public class ConfirmShopActivity extends AppCompatActivity {
 
     public void onClickButton(View view)
     {
-        Intent intent = new Intent(this, HomeActivity2.class);
+        Intent intent = new Intent(this, RegisterFoodListActivity.class);
         startActivity(intent);
     }
 }

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterShopActivity"
+    tools:context=".RegisterInfoShopActivity"
     android:orientation="vertical">
 
     <EditText
@@ -53,41 +53,11 @@
         android:textColor="@color/cor_texto"
         android:textColorHint="@color/cor_texto" />
 
-    
-    <RadioGroup
-    android:id="@+id/radioButtonGroup"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
 
-    <RadioButton
-    android:id="@+id/radioClient"
-    android:layout_width="330dp"
-    android:layout_height="40dp"
-    android:text="@string/fixed_shop"
-    android:textSize="12pt"
-    android:textStyle="bold"
-    android:textColor="@color/cor_texto_button"
-    android:background="@color/colorPrimaryDark"
-    android:layout_marginTop="20dp"
-    />
 
-    <RadioButton
-    android:id="@+id/radioShop"
-    android:layout_width="330dp"
-    android:layout_height="40dp"
-    android:text="@string/mobile_shop"
-    android:textSize="12pt"
-    android:textStyle="bold"
-    android:textColor="@color/cor_texto_button"
-    android:background="@color/colorPrimaryDark"
-    android:layout_marginTop="20dp"
-    />
-
-    </RadioGroup>
-
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/btn_register"

@@ -7,7 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class HomeActivity2 extends AppCompatActivity
+public class RegisterFoodListActivity extends AppCompatActivity
 {
 
     private static final Shop[] nameShop = {
@@ -20,7 +20,7 @@ public class HomeActivity2 extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home2);
+        setContentView(R.layout.activity_food_list);
 
 
         ListView searchShopList = (ListView) findViewById(R.id.search_shop_listView);

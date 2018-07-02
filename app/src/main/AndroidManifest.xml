@@ -21,14 +21,14 @@
             android:label="@string/title_activity_home">
 
         </activity>
-        <activity android:name= ".RegisterShopActivity">
+        <activity android:name= ".RegisterInfoShopActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity2" />
+        <activity android:name=".RegisterFoodListActivity" />
         <activity android:name=".ConfirmShopActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

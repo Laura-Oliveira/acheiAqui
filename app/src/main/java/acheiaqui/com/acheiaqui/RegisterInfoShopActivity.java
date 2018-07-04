@@ -2,6 +2,7 @@ package acheiaqui.com.acheiaqui;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
@@ -92,24 +93,33 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
 
     }
 
-    public void onClickButton(View view)
+    public void nextPageButton(View view)
     {
 
         EditText edName = (EditText) findViewById(R.id.name_shop);
         EditText edInfo = (EditText) findViewById(R.id.shop_info);
-        EditText edReference = (EditText) findViewById(R.id.reference_point);
+        EditText edReferencePoint = (EditText) findViewById(R.id.reference_point);
+        ImageView picture = (ImageView) findViewById(R.id.image_shop);
+
+        Drawable photo = picture.getDrawable();
 
         String name = edName.getText().toString();
         String info = edInfo.getText().toString();
-        String reference = edReference.getText().toString();
+        String referencePoint = edReferencePoint.getText().toString();
 
-        Shop newShop = new Shop(name, info, reference);
+        /*DatabaseReference dbReference = database.getReference("shop");
 
-        DatabaseReference dbReference = database.getReference("shop");
+        dbReference.push().setValue(newShop);*/
 
-        dbReference.push().setValue(newShop);
+        if(name!="" && info!="" && referencePoint!="" && picture!=null){
 
-        Intent intent = new Intent(RegisterInfoShopActivity.this,ConfirmShopActivity.class);
-        startActivity(intent);
+            Intent intent = new Intent(RegisterInfoShopActivity.this, ConfirmShopActivity.class);
+            intent.putExtra("name", name);
+            intent.putExtra("info", info);
+            intent.putExtra("referencedPoint", referencePoint);
+
+            startActivity(intent);
+        }
+
     }
 }

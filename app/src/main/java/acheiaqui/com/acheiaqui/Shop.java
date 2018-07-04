@@ -16,6 +16,14 @@ public class Shop
 
     }
 
+    public Shop(String name, String info, String reference)
+    {
+        this.name = name;
+        this.info = info;
+        this.reference = reference;
+
+    }
+
     public String getName() {
 
         return this.name;

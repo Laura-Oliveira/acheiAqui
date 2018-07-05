@@ -49,13 +49,12 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_register_location);
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         startGettingLocations();
         mDatabase = FirebaseDatabase.getInstance().getReference();
-        //getMarkers();
     }
 
     //funcao que carrega o mapa quando o aplicativo e aberto
@@ -78,6 +77,7 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
         markerOptions.title("Localização atual");
         markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
         currentLocationMaker = mMap.addMarker(markerOptions);
+        currentLocationMaker.setDraggable(true);
 
         //quando a localizacao atual do usuario muda, o foco do mapa muda para o ponto atual do usuario e aumenta
         //o zoom do mapa, mostrando mais detalhes do mesmo
@@ -88,8 +88,6 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
         mDatabase.child("location").child(String.valueOf(new Date().getTime())).setValue(locationData);
 
         Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
-        //   getMarkers();
-
     }
 
 

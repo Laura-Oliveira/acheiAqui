@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -21,18 +21,17 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_home">
-
-        </activity>
+            android:label="@string/title_activity_home"></activity>
         <activity android:name=".RegisterInfoShopActivity"></activity>
-        <activity android:name=".RegisterFoodListActivity"></activity>
-        <activity android:name=".ConfirmShopActivity"></activity>
-        <activity android:name=".RegisterLocationActivity">
+        <activity android:name=".RegisterFoodListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".RegisterLocationActivity">
+
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -45,7 +44,6 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
 
     </application>
 

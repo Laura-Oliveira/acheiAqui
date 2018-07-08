@@ -1,4 +1,4 @@
-#Mon Jun 11 12:31:45 BRT 2018
+#Sun Jul 08 12:51:11 BRT 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/65
-base.2=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/64
-base.1=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/66
+base.3=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/62
+base.2=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/65
+base.1=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/64
 base.0=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/63

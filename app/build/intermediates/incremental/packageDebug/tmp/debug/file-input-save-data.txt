@@ -1,10 +1,10 @@
 #Internal package file, do not edit.
-#Mon Jun 11 12:31:45 BRT 2018
-1.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/65
+#Sun Jul 08 12:51:11 BRT 2018
+1.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/62
 2.path=classes.dex
 0.baseType=DIRECTORY
 3.baseType=DIRECTORY
-2.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/64
+2.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/65
 3.set=DEX
 2.set=DEX
 1.baseType=DIRECTORY
@@ -12,7 +12,7 @@
 count=4
 1.set=DEX
 0.path=classes.dex
-3.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/66
+3.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/64
 0.set=DEX
 0.base=/home/laura/Documentos/rep-achei-aqui/acheiAqui/app/build/intermediates/transforms/dexMerger/debug/63
 2.baseType=DIRECTORY

@@ -26,6 +26,7 @@
         <activity android:name=".RegisterInfoShopActivity"></activity>
         <activity android:name=".RegisterFoodListActivity"></activity>
         <activity android:name=".RegisterLocationActivity"></activity>
+        <activity android:name=".ProfileShopActivity"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

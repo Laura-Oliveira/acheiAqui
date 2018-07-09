@@ -111,9 +111,9 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
 
         dbReference.push().setValue(newShop);*/
 
-        if(name!="" && info!="" && referencePoint!="" && picture!=null){
+        if(name!="" && info!="" && referencePoint!=""){
 
-            Intent intent = new Intent(RegisterInfoShopActivity.this, ConfirmShopActivity.class);
+            Intent intent = new Intent(RegisterInfoShopActivity.this, RegisterLocationActivity.class);
             intent.putExtra("name", name);
             intent.putExtra("info", info);
             intent.putExtra("referencedPoint", referencePoint);

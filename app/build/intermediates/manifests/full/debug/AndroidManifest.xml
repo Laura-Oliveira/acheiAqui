@@ -46,17 +46,17 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="acheiaqui.com.acheiaqui.HomeActivity"
-            android:label="@string/title_activity_home" >
-        </activity>
-        <activity android:name="acheiaqui.com.acheiaqui.RegisterInfoShopActivity" />
-        <activity android:name="acheiaqui.com.acheiaqui.RegisterFoodListActivity" />
-        <activity android:name="acheiaqui.com.acheiaqui.ConfirmShopActivity" />
-        <activity android:name="acheiaqui.com.acheiaqui.RegisterLocationActivity" >
+            android:label="@string/title_activity_home" />
+        <activity android:name="acheiaqui.com.acheiaqui.RegisterInfoShopActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="acheiaqui.com.acheiaqui.RegisterFoodListActivity" >
+        </activity>
+        <activity android:name="acheiaqui.com.acheiaqui.RegisterLocationActivity" >
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

@@ -1,39 +1,59 @@
+
 package acheiaqui.com.acheiaqui;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Date;
+
 public class RegisterFoodListActivity extends AppCompatActivity
 {
-
-    private static final Shop[] nameShop = {
-            /*new Shop("Catatau", "O mestre dos salgados", "Galandru"),
-            new Shop("Hamburgao do Roberto Carlos", "O Rei dos hamburguers", "Cair Paravel"),
-            new Shop("Barraquinha da Tia", "A tia que sempre tem aquele guaraná do Amazonas", "Moria")*/
-    };
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private EditText foods;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
+        foods = (EditText) findViewById(R.id.registerfoods_shop);
 
+    }
 
-        ListView searchShopList = (ListView) findViewById(R.id.search_shop_listView);
-        //porque eu preciso passar de um contexto para criar uma lista?
-        searchShopList.setAdapter(new ShopArrayListAdapter(this, R.layout.shop_name_listitem, R.id.shop_name, nameShop));
+    public void registerShop(View view){
+        String nameShop = getIntent().getStringExtra("name");
+        String infoShop = getIntent().getStringExtra("info");
+        String referencePointShop = getIntent().getStringExtra("referencedPoint");
 
-        searchShopList.setOnItemClickListener(new AdapterView.OnItemClickListener()
-        {
-            @Override
-            public void onItemClick(AdapterView<?> parent, final View view, int position, long id)
-            {
-                Toast.makeText(parent.getContext(), "Estabelecimento selecionado: " + nameShop[position].getName(), Toast.LENGTH_SHORT).show();
-            }
-        });
+        Bundle doubleDatas = getIntent().getExtras();
+        double latitudeShop =  doubleDatas.getDouble("latitude");
+        double longitudeShop =  doubleDatas.getDouble("longitude");
+
+        if(foods.toString()!="") {
+
+            Shop newShop = new Shop();
+            newShop.setName(nameShop);
+            newShop.setInfo(infoShop);
+            newShop.setReference(referencePointShop);
+            newShop.setLatitude(latitudeShop);
+            newShop.setLongitude(longitudeShop);
+
+            //mDatabase.child("shop").child(String.valueOf(new Date().getTime())).setValue(newShop);
+            DatabaseReference dbReference = database.getReference("shop");
+            dbReference.push().setValue(newShop);
+
+            Intent intent = new Intent(RegisterFoodListActivity.this, HomeActivity.class);
+            startActivity(intent);
+
+        }
     }
 }

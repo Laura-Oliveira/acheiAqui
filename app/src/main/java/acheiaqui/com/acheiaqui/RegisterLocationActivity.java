@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -15,6 +16,10 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -44,18 +49,20 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
     private GoogleMap mMap;
     private Marker currentLocationMaker;
     private LatLng currentLocationLatLong;
-    private DatabaseReference mDatabase;
+    private LocationData locationData = new LocationData();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_register_location);
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         startGettingLocations();
-        mDatabase = FirebaseDatabase.getInstance().getReference();
-        //getMarkers();
+
+        Button btn = (Button) findViewById(R.id.btn_locationRegister);
+
+        //btn.setOnClickListener(new View.OnClickListener);
     }
 
     //funcao que carrega o mapa quando o aplicativo e aberto
@@ -78,18 +85,17 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
         markerOptions.title("Localização atual");
         markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
         currentLocationMaker = mMap.addMarker(markerOptions);
+        currentLocationMaker.setDraggable(true);
 
         //quando a localizacao atual do usuario muda, o foco do mapa muda para o ponto atual do usuario e aumenta
         //o zoom do mapa, mostrando mais detalhes do mesmo
         CameraPosition cameraPosition = new CameraPosition.Builder().zoom(17).target(currentLocationLatLong).build();
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
-        LocationData locationData = new LocationData(location.getLatitude(), location.getLongitude());
-        mDatabase.child("location").child(String.valueOf(new Date().getTime())).setValue(locationData);
+        locationData.setLatitude(location.getLatitude());
+        locationData.setLongitude(location.getLongitude());
 
         Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
-        //   getMarkers();
-
     }
 
 
@@ -223,5 +229,29 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
     @Override
     public void onProviderDisabled(String provider) {
 
+    }
+
+    public void nextPageButton(View view)
+    {
+        Location location;
+        String nameShop = getIntent().getStringExtra("name");
+        String infoShop = getIntent().getStringExtra("info");
+        String referencePointShop = getIntent().getStringExtra("referencedPoint");
+
+        locationData.setLatitude(-8.0445075);
+        locationData.setLongitude(-34.90934705);
+
+        if(this.locationData.getLatitude()!=0.0 && this.locationData.getLongitude()!=0.0) {
+
+            Intent intent = new Intent(RegisterLocationActivity.this, RegisterFoodListActivity.class);
+            intent.putExtra("name", nameShop);
+            intent.putExtra("info", infoShop);
+            intent.putExtra("referencedPoint", referencePointShop);
+            intent.putExtra("latitude", locationData.getLatitude());
+            intent.putExtra("longitude", locationData.getLongitude());
+
+            startActivity(intent);
+
+        }
     }
 }

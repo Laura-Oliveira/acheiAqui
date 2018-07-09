@@ -4,40 +4,61 @@ public class Shop
 {
     private String name;
     private String info;
-    private String address;
     private String reference;
+    private double latitude;
+    private double longitude;
 
-    public Shop(String name, String info, String address, String reference)
+    public Shop(String name, String info, String reference, double latitude, double longitude)
     {
         this.name = name;
         this.info = info;
-        this.address = address;
         this.reference = reference;
+        this.latitude = latitude;
+        this.longitude = longitude;
 
     }
 
-    public Shop(String name, String info, String reference)
-    {
-        this.name = name;
-        this.info = info;
-        this.reference = reference;
+    public Shop(){
 
     }
 
     public String getName() {
+        return name;
+    }
 
-        return this.name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getInfo() {
-        return this.info;
+        return info;
     }
 
-    public String getPlace() {
-        return this.address;
+    public void setInfo(String info) {
+        this.info = info;
     }
 
     public String getReference() {
-        return this.reference;
+        return reference;
+    }
+
+    public void setReference(String reference) {
+        this.reference = reference;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 }

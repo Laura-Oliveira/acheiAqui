@@ -29,6 +29,8 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
 
     private ImageView ivPicture;
     private Button btnAcessCamera;
+    Bitmap bitmap;
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
 
     private static final int CAMERA_REQUEST_CODE = 1;
 
@@ -66,15 +68,14 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
 
             //Pega a informação (imagem) que vem da camera e faz um tratamento dela
             Bundle extras = data.getExtras();
-            Bitmap bitmap = (Bitmap) data.getExtras().get("data");
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            bitmap = (Bitmap) data.getExtras().get("data");
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
             byte[] dataBAOS = baos.toByteArray();
 
             //carrega a imagem na ImageView da activity
             ivPicture.setImageBitmap(bitmap);
 
-            //nome da imagem que vai ser inserida no banco, uso de data para evitar sobrescrita
+          /*  //nome da imagem que vai ser inserida no banco, uso de data para evitar sobrescrita
             StorageReference imagesRef = storageReference.child("ShopsPicture").child("picture" + new Date().getTime());
 
             //upload a imagem
@@ -88,7 +89,7 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
                     Toast.makeText(RegisterInfoShopActivity.this,
                             "Carregamento termminou ...", Toast.LENGTH_LONG).show();
                 }
-            });
+            });*/
         }
 
     }
@@ -99,13 +100,11 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
         EditText edName = (EditText) findViewById(R.id.name_shop);
         EditText edInfo = (EditText) findViewById(R.id.shop_info);
         EditText edReferencePoint = (EditText) findViewById(R.id.reference_point);
-        ImageView picture = (ImageView) findViewById(R.id.image_shop);
-
-        Drawable photo = picture.getDrawable();
 
         String name = edName.getText().toString();
         String info = edInfo.getText().toString();
         String referencePoint = edReferencePoint.getText().toString();
+
 
         if(name.length()!=0 && info.length()!=0 && referencePoint.length()!=0){
 
@@ -113,6 +112,7 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
             intent.putExtra("name", name);
             intent.putExtra("info", info);
             intent.putExtra("referencedPoint", referencePoint);
+            intent.putExtra("picture", baos.toByteArray());
 
             startActivity(intent);
         } else {

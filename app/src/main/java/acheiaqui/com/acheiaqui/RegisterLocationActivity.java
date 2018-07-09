@@ -249,6 +249,7 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
             intent.putExtra("referencedPoint", referencePointShop);
             intent.putExtra("latitude", locationData.getLatitude());
             intent.putExtra("longitude", locationData.getLongitude());
+            intent.putExtra("picture", getIntent().getByteArrayExtra("picture"));
 
             startActivity(intent);
 

@@ -107,11 +107,7 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
         String info = edInfo.getText().toString();
         String referencePoint = edReferencePoint.getText().toString();
 
-        /*DatabaseReference dbReference = database.getReference("shop");
-
-        dbReference.push().setValue(newShop);*/
-
-        if(name!="" && info!="" && referencePoint!=""){
+        if(name.length()!=0 && info.length()!=0 && referencePoint.length()!=0){
 
             Intent intent = new Intent(RegisterInfoShopActivity.this, RegisterLocationActivity.class);
             intent.putExtra("name", name);
@@ -119,6 +115,8 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
             intent.putExtra("referencedPoint", referencePoint);
 
             startActivity(intent);
+        } else {
+            Toast.makeText(this, "É preciso preencher todos os campos", Toast.LENGTH_SHORT).show();
         }
 
     }

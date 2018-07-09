@@ -115,5 +115,5 @@
         Sanduíche;\n
         Pastel;\n
     </string>
-    <string name="registerlocation_shop">Confirme o Local</string>
+    <string name="registerlocation_shop">Se preciso, segure e arraste o marcador para determinar a posição no mapa.</string>
 </resources>

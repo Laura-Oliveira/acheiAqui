@@ -40,7 +40,7 @@
         android:id="@+id/shop_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Informações do Local"
+        android:hint="Descrição do local"
         android:inputType="text"
         android:maxLines="1"
         android:singleLine="true"
@@ -72,7 +72,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/button"
             android:onClick="nextPageButton"
-            android:text="@string/action_register"
+            android:text="Próximo"
             android:textColor="@color/cor_texto_button"
             android:textSize="10pt"
             android:textStyle="bold" />

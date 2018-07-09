@@ -252,6 +252,8 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
 
             startActivity(intent);
 
+        }else {
+            Toast.makeText(this, "Não foi possível pegar a sua localização", Toast.LENGTH_SHORT).show();
         }
     }
 }

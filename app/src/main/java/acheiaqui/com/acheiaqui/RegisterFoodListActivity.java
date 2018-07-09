@@ -38,12 +38,13 @@ public class RegisterFoodListActivity extends AppCompatActivity
         double latitudeShop =  doubleDatas.getDouble("latitude");
         double longitudeShop =  doubleDatas.getDouble("longitude");
 
-        if(foods.toString()!="") {
+        if(foods.toString().length()!=0) {
 
             Shop newShop = new Shop();
             newShop.setName(nameShop);
             newShop.setInfo(infoShop);
             newShop.setReference(referencePointShop);
+            newShop.setFoods(foods.getText().toString());
             newShop.setLatitude(latitudeShop);
             newShop.setLongitude(longitudeShop);
 
@@ -54,6 +55,8 @@ public class RegisterFoodListActivity extends AppCompatActivity
             Intent intent = new Intent(RegisterFoodListActivity.this, HomeActivity.class);
             startActivity(intent);
 
+        }else {
+            Toast.makeText(this, "É preciso informar as comidas oferecidas.", Toast.LENGTH_SHORT).show();
         }
     }
 }

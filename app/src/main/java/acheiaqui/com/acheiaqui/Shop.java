@@ -5,16 +5,19 @@ public class Shop
     private String name;
     private String info;
     private String reference;
+    private String foods;
     private double latitude;
     private double longitude;
 
-    public Shop(String name, String info, String reference, double latitude, double longitude)
+    public Shop(String name, String info, String reference, String foods, double latitude, double longitude)
     {
         this.name = name;
         this.info = info;
         this.reference = reference;
+        this.foods = foods;
         this.latitude = latitude;
         this.longitude = longitude;
+
 
     }
 
@@ -44,6 +47,14 @@ public class Shop
 
     public void setReference(String reference) {
         this.reference = reference;
+    }
+
+    public String getFoods() {
+        return foods;
+    }
+
+    public void setFoods(String foods) {
+        this.foods = foods;
     }
 
     public double getLatitude() {

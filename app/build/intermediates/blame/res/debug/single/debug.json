@@ -1576,6 +1576,10 @@
         "source": "C:\\Users\\Ramon\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\ac349af4a42727d04b5d6d25139ba831\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\Ramon\\Documents\\PDM\\acheiAqui\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_shop.xml.flat",
+        "source": "C:\\Users\\Ramon\\Documents\\PDM\\acheiAqui\\app\\src\\main\\res\\layout\\activity_profile_shop.xml"
+    },
+    {
         "merged": "C:\\Users\\Ramon\\Documents\\PDM\\acheiAqui\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Ramon\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0fa8e7a89890557e77dbb046845440a6\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },

@@ -7,20 +7,15 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.nfc.Tag;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -30,33 +25,52 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Map;
 
-public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
+public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener, GoogleMap.OnMarkerClickListener {
 
     private GoogleMap mMap;
     private Marker currentLocationMaker;
     private LatLng currentLocationLatLong;
     private DatabaseReference mDatabase;
 
+    private Marker shopMarker;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        Intent intent = getIntent();
+        intent.getExtras();
+        if(intent.hasExtra("success")){
+            Toast.makeText(this, intent.getStringExtra("success"), Toast.LENGTH_SHORT).show();
+        }
         mapFragment.getMapAsync(this);
         startGettingLocations();
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+        getMarkers();
     }
 
     //funcao que carrega o mapa quando o aplicativo e aberto
-    public void onMapReady(GoogleMap googleMap) {
+    public void onMapReady(GoogleMap googleMap)
+    {
         mMap = googleMap;
+        /*
+        MarkerOptions markerShop = new MarkerOptions();
+        markerShop.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop));
+        MarkerOptions markerAtualLocation = new MarkerOptions();
+        markerAtualLocation.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_round));
+        */
     }
 
     //funcao que pega a localizacao atual do cliente, caso este permita que sua localizacao seja utilizada,
@@ -72,24 +86,23 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(currentLocationLatLong);
         markerOptions.title("Localização atual");
-        markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
+        markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+
         currentLocationMaker = mMap.addMarker(markerOptions);
-        currentLocationMaker.setDraggable(true);
+        currentLocationMaker.setDraggable(true); //permite que o marcador possa ser trocado de lugar
 
         //quando a localizacao atual do usuario muda, o foco do mapa muda para o ponto atual do usuario e aumenta
         //o zoom do mapa, mostrando mais detalhes do mesmo
         CameraPosition cameraPosition = new CameraPosition.Builder().zoom(17).target(currentLocationLatLong).build();
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
-        LocationData locationData = new LocationData(location.getLatitude(), location.getLongitude());
-        mDatabase.child("location").child(String.valueOf(new Date().getTime())).setValue(locationData);
-
         Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
+        getMarkers();
     }
 
 
-    private ArrayList findUnAskedPermissions(ArrayList<String> wanted) {
-        ArrayList result = new ArrayList();
+    private ArrayList<String> findUnAskedPermissions(ArrayList<String> wanted) {
+        ArrayList<String> result = new ArrayList<>();
 
         for (String perm : wanted) {
             if (!hasPermission(perm)) {
@@ -141,8 +154,14 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
 
         LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-        boolean isGPS = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
-        boolean isNetwork = lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        boolean isGPS = false;
+        if (lm != null) {
+            isGPS = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
+        }
+        boolean isNetwork = false;
+        if (lm != null) {
+            isNetwork = lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        }
         boolean canGetLocation = true;
         int ALL_PERMISSIONS_RESULT = 101;
         long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10;// Distance in meters
@@ -185,17 +204,15 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
 
         //atualiza a localizacao do usuario, a partir do GPS ou Intenet
         if (canGetLocation) {
-            if (isGPS) {
-                lm.requestLocationUpdates(
-                        LocationManager.GPS_PROVIDER,
-                        MIN_TIME_BW_UPDATES,
-                        MIN_DISTANCE_CHANGE_FOR_UPDATES, (LocationListener) this);
-
-            } else if (isNetwork) {
+            if (isGPS) lm.requestLocationUpdates(
+                    LocationManager.GPS_PROVIDER,
+                    MIN_TIME_BW_UPDATES,
+                    MIN_DISTANCE_CHANGE_FOR_UPDATES, this);
+            else if (isNetwork) {
                 lm.requestLocationUpdates(
                         LocationManager.NETWORK_PROVIDER,
                         MIN_TIME_BW_UPDATES,
-                        MIN_DISTANCE_CHANGE_FOR_UPDATES, (LocationListener) this);
+                        MIN_DISTANCE_CHANGE_FOR_UPDATES, this);
 
             }
         } else {
@@ -203,20 +220,86 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
+    private void getMarkers(){
+        mDatabase.child("shop").addListenerForSingleValueEvent(
+                new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        //Get map of users in datasnapshot
+                        if (dataSnapshot.getValue() != null) {
+                            getAllLocations((Map<String,Object>) dataSnapshot.getValue());
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        //handle databaseError
+                    }
+                });
+    }
+
+    private void getAllLocations(Map<String, Object> locations) {
+
+
+        for (Map.Entry<String, Object> entry : locations.entrySet()) {
+            Shop shop = new Shop();
+            Map singleLocation = (Map) entry.getValue();
+            shop.setName((String) singleLocation.get("name"));
+            shop.setLatitude((Double) singleLocation.get("latitude"));
+            shop.setLongitude((Double) singleLocation.get("longitude"));
+
+            LatLng latLng = new LatLng(shop.getLatitude(), shop.getLongitude());
+            addGreenMarker(shop, latLng);
+
+        }
+
+
+    }
+
+    private void addGreenMarker(Shop shop, LatLng latLng) {
+
+        mMap.setOnMarkerClickListener(this);
+
+        MarkerOptions markerOptions = new MarkerOptions();
+        markerOptions.position(latLng);
+        markerOptions.title(shop.getName());
+        markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
+
+        shopMarker = mMap.addMarker(markerOptions);
+    }
+
+
     //funcoes padroes da classe LocationListerner. Nao foi necessario sobrescreve-las para manipular o mapa
     //e a localizacao atual do usuario
     @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) {
+    public void onStatusChanged(String provider,int status, Bundle extras){
 
     }
 
     @Override
-    public void onProviderEnabled(String provider) {
+    public void onProviderEnabled(String provider){
 
     }
 
     @Override
-    public void onProviderDisabled(String provider) {
+    public void onProviderDisabled(String provider){
 
+    }
+
+    public void registerNewShop(View ciew){
+
+        Intent intent = new Intent(this, RegisterInfoShopActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+
+        if(marker.equals(shopMarker)){
+            Intent intent = new Intent(this, ProfileShopActivity.class);
+            startActivity(intent);
+        }
+        return true;
     }
 }
+

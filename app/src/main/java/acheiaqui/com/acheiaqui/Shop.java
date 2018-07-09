@@ -2,6 +2,7 @@ package acheiaqui.com.acheiaqui;
 
 public class Shop
 {
+    private String id;
     private String name;
     private String info;
     private String reference;
@@ -23,6 +24,14 @@ public class Shop
 
     public Shop(){
 
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {

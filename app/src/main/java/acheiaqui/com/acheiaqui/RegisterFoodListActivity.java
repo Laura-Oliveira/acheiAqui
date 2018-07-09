@@ -10,8 +10,12 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 import java.util.Date;
 
@@ -19,6 +23,7 @@ public class RegisterFoodListActivity extends AppCompatActivity
 {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private EditText foods;
+    private StorageReference storageReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -26,6 +31,9 @@ public class RegisterFoodListActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
         foods = (EditText) findViewById(R.id.registerfoods_shop);
+
+        //Pega a referencia do Storage do firebase
+        storageReference = FirebaseStorage.getInstance().getReference();
 
     }
 
@@ -40,6 +48,8 @@ public class RegisterFoodListActivity extends AppCompatActivity
 
         if(foods.toString().length()!=0) {
 
+            DatabaseReference dbReference = database.getReference("shop");
+
             Shop newShop = new Shop();
             newShop.setName(nameShop);
             newShop.setInfo(infoShop);
@@ -47,12 +57,19 @@ public class RegisterFoodListActivity extends AppCompatActivity
             newShop.setFoods(foods.getText().toString());
             newShop.setLatitude(latitudeShop);
             newShop.setLongitude(longitudeShop);
+            newShop.setId(dbReference.push().getKey());
 
-            //mDatabase.child("shop").child(String.valueOf(new Date().getTime())).setValue(newShop);
-            DatabaseReference dbReference = database.getReference("shop");
-            dbReference.push().setValue(newShop);
+            //insere lojinha no banco de dados
+            dbReference.child(newShop.getId()).setValue(newShop);
+
+            //insere a imagem no storage, cujo nome é o id da lojinha
+            StorageReference imagesRef = storageReference.child("pictures").child(newShop.getId());
+
+            //upload a imagem
+            UploadTask uploadTask = imagesRef.putBytes(getIntent().getByteArrayExtra("picture"));
 
             Intent intent = new Intent(RegisterFoodListActivity.this, HomeActivity.class);
+            intent.putExtra("success", "Ponto de venda cadastrado com sucesso!");
             startActivity(intent);
 
         }else {

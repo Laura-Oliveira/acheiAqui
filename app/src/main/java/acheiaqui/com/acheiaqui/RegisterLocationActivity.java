@@ -238,9 +238,6 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
         String infoShop = getIntent().getStringExtra("info");
         String referencePointShop = getIntent().getStringExtra("referencedPoint");
 
-        locationData.setLatitude(-8.0445075);
-        locationData.setLongitude(-34.90934705);
-
         if(this.locationData.getLatitude()!=0.0 && this.locationData.getLongitude()!=0.0) {
 
             Intent intent = new Intent(RegisterLocationActivity.this, RegisterFoodListActivity.class);
@@ -249,6 +246,7 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
             intent.putExtra("referencedPoint", referencePointShop);
             intent.putExtra("latitude", locationData.getLatitude());
             intent.putExtra("longitude", locationData.getLongitude());
+            intent.putExtra("picture", getIntent().getByteArrayExtra("picture"));
 
             startActivity(intent);
 

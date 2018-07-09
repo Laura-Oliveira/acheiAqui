@@ -46,6 +46,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        mDatabase = FirebaseDatabase.getInstance().getReference();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         startGettingLocations();
@@ -57,9 +58,9 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     {
         mMap = googleMap;
         MarkerOptions markerShop = new MarkerOptions();
-        markerShop.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_map));
+        markerShop.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop));
         MarkerOptions markerAtualLocation = new MarkerOptions();
-        markerAtualLocation.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_here));
+        markerAtualLocation.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_round));
     }
 
     //funcao que pega a localizacao atual do cliente, caso este permita que sua localizacao seja utilizada,
@@ -210,7 +211,6 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void getMarkers(){
-
         mDatabase.child("location").addListenerForSingleValueEvent(
                 new ValueEventListener() {
                     @Override
@@ -245,7 +245,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
         markerOptions.title("Shop");
-        markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_map));
+        markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher));
 
         mMap.addMarker(markerOptions);
     }

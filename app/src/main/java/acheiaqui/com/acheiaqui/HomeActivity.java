@@ -36,7 +36,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Map;
 
-public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener, GoogleMap.OnMarkerClickListener {
+public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 
     private GoogleMap mMap;
     private Marker currentLocationMaker;
@@ -258,7 +258,6 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void addGreenMarker(Shop shop, LatLng latLng) {
 
-        mMap.setOnMarkerClickListener(this);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
@@ -292,14 +291,6 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         startActivity(intent);
     }
 
-    @Override
-    public boolean onMarkerClick(Marker marker) {
 
-        if(marker.equals(shopMarker)){
-            Intent intent = new Intent(this, ProfileShopActivity.class);
-            startActivity(intent);
-        }
-        return true;
-    }
 }
 

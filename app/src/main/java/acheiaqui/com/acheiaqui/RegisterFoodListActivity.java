@@ -69,6 +69,7 @@ public class RegisterFoodListActivity extends AppCompatActivity
             UploadTask uploadTask = imagesRef.putBytes(getIntent().getByteArrayExtra("picture"));
 
             Intent intent = new Intent(RegisterFoodListActivity.this, HomeActivity.class);
+            intent.putExtra("success", "Ponto de venda cadastrado com sucesso!");
             startActivity(intent);
 
         }else {

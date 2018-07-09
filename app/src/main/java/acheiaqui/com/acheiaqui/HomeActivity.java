@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -35,12 +36,14 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Map;
 
-public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
+public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener, GoogleMap.OnMarkerClickListener {
 
     private GoogleMap mMap;
     private Marker currentLocationMaker;
     private LatLng currentLocationLatLong;
     private DatabaseReference mDatabase;
+
+    private Marker shopMarker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,11 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_home);
         mDatabase = FirebaseDatabase.getInstance().getReference();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        Intent intent = getIntent();
+        intent.getExtras();
+        if(intent.hasExtra("success")){
+            Toast.makeText(this, intent.getStringExtra("success"), Toast.LENGTH_SHORT).show();
+        }
         mapFragment.getMapAsync(this);
         startGettingLocations();
         getMarkers();
@@ -211,7 +219,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void getMarkers(){
-        mDatabase.child("location").addListenerForSingleValueEvent(
+        mDatabase.child("shop").addListenerForSingleValueEvent(
                 new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -232,22 +240,30 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         for (Map.Entry<String, Object> entry : locations.entrySet()) {
+            Shop shop = new Shop();
             Map singleLocation = (Map) entry.getValue();
-            LatLng latLng = new LatLng((Double) singleLocation.get("latitude"), (Double) singleLocation.get("longitude"));
-            addGreenMarker(latLng);
+            shop.setName((String) singleLocation.get("name"));
+            shop.setLatitude((Double) singleLocation.get("latitude"));
+            shop.setLongitude((Double) singleLocation.get("longitude"));
+
+            LatLng latLng = new LatLng(shop.getLatitude(), shop.getLongitude());
+            addGreenMarker(shop, latLng);
 
         }
 
 
     }
 
-    private void addGreenMarker(LatLng latLng) {
+    private void addGreenMarker(Shop shop, LatLng latLng) {
+
+        mMap.setOnMarkerClickListener(this);
+
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
-        markerOptions.title("Shop");
+        markerOptions.title(shop.getName());
         markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher));
 
-        mMap.addMarker(markerOptions);
+        shopMarker = mMap.addMarker(markerOptions);
     }
 
 
@@ -266,6 +282,22 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onProviderDisabled(String provider){
 
+    }
+
+    public void registerNewShop(View ciew){
+
+        Intent intent = new Intent(this, RegisterInfoShopActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+
+        if(marker.equals(shopMarker)){
+            Intent intent = new Intent(this, ProfileShopActivity.class);
+            startActivity(intent);
+        }
+        return true;
     }
 }
 

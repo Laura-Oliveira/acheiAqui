@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\b7586b27047ee7f7eb7a230ba00b6b93\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\a58b80ddd731087c980e25660923d569\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ac378975683c129f28b580505adbc846\AndroidManifest.xml:17:1-22:12
@@ -43,20 +43,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ramon\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c6730c4348109ab3ad5e497c762af456\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c624c7d8d1245a557bd058f3a93b1885\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8e9839395eec51a05e44a3290f9ef96b\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:2:11-69
@@ -85,7 +85,7 @@ ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:10:5-36:19
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:10:5-37:19
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\b7586b27047ee7f7eb7a230ba00b6b93\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\b7586b27047ee7f7eb7a230ba00b6b93\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\a428c6f76109662599007b33b9d020c9\AndroidManifest.xml:9:5-20
@@ -133,39 +133,39 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Us
 	android:theme
 		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:16:9-40
 activity#acheiaqui.com.acheiaqui.HomeActivity
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:17:9-19:68
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:label
 		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
 		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:18:13-41
-activity#acheiaqui.com.acheiaqui.RegisterInfoShopActivity
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:20:9-26:20
-	android:name
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:20:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:23:27-74
+activity#acheiaqui.com.acheiaqui.RegisterInfoShopActivity
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:26:9-27:20
+	android:name
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:26:19-59
 activity#acheiaqui.com.acheiaqui.RegisterFoodListActivity
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:27:9-28:20
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:28:9-29:20
 	android:name
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:27:19-59
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:28:19-59
 activity#acheiaqui.com.acheiaqui.RegisterLocationActivity
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:29:9-30:20
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:30:9-31:20
 	android:name
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:29:19-59
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:30:19-59
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:32:9-34:55
+ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:33:9-35:55
 	android:value
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:35:13-52
 	android:name
-		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:33:13-58
+		ADDED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml:34:13-58
 uses-sdk
 INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ramon\Documents\PDM\acheiAqui\app\src\main\AndroidManifest.xml

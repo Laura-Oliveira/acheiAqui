@@ -48,12 +48,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="acheiaqui.com.acheiaqui.RegisterInfoShopActivity" >
-        </activity>
-        <activity android:name="acheiaqui.com.acheiaqui.RegisterFoodListActivity" >
-        </activity>
-        <activity android:name="acheiaqui.com.acheiaqui.RegisterLocationActivity" >
-        </activity>
+        <activity android:name="acheiaqui.com.acheiaqui.RegisterInfoShopActivity" />
+        <activity android:name="acheiaqui.com.acheiaqui.RegisterFoodListActivity" />
+        <activity android:name="acheiaqui.com.acheiaqui.RegisterLocationActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

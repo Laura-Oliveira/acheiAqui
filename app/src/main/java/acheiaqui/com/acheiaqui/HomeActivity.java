@@ -65,10 +65,12 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap)
     {
         mMap = googleMap;
+        /*
         MarkerOptions markerShop = new MarkerOptions();
         markerShop.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop));
         MarkerOptions markerAtualLocation = new MarkerOptions();
         markerAtualLocation.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_round));
+        */
     }
 
     //funcao que pega a localizacao atual do cliente, caso este permita que sua localizacao seja utilizada,
@@ -261,7 +263,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
         markerOptions.title(shop.getName());
-        markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher));
+        markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
 
         shopMarker = mMap.addMarker(markerOptions);
     }

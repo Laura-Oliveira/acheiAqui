@@ -14,7 +14,7 @@
     <string name="title_activity_home2">HomeActivity2</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_home">Map</string>
+    <string name="title_activity_home">Achei Aqui</string>
     <string name="title_activity_info_shop">InfoShopActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -107,7 +107,6 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="btn_image_shop">Add Imagem</string>
-    <string name="title_activity_teste">Teste</string>
     <string name="registerfood_shop">Quais as comidas que vende aí?</string>
     <string name="hint_food_list">
         Exemplo:\n

@@ -3844,23 +3844,25 @@ public final class R {
     public static final int googleg_disabled_color_18=0x7f070075;
     public static final int googleg_standard_color_18=0x7f070076;
     public static final int ic_launcher_background=0x7f070077;
-    public static final int ic_launcher_background_shop=0x7f070078;
-    public static final int ic_launcher_foreground=0x7f070079;
-    public static final int navigation_empty_icon=0x7f07007a;
-    public static final int notification_action_background=0x7f07007b;
-    public static final int notification_bg=0x7f07007c;
-    public static final int notification_bg_low=0x7f07007d;
-    public static final int notification_bg_low_normal=0x7f07007e;
-    public static final int notification_bg_low_pressed=0x7f07007f;
-    public static final int notification_bg_normal=0x7f070080;
-    public static final int notification_bg_normal_pressed=0x7f070081;
-    public static final int notification_icon_background=0x7f070082;
-    public static final int notification_template_icon_bg=0x7f070083;
-    public static final int notification_template_icon_low_bg=0x7f070084;
-    public static final int notification_tile_bg=0x7f070085;
-    public static final int notify_panel_notification_icon_bg=0x7f070086;
-    public static final int tooltip_frame_dark=0x7f070087;
-    public static final int tooltip_frame_light=0x7f070088;
+    public static final int ic_launcher_background_here=0x7f070078;
+    public static final int ic_launcher_background_shop=0x7f070079;
+    public static final int ic_launcher_background_shop_map=0x7f07007a;
+    public static final int ic_launcher_foreground=0x7f07007b;
+    public static final int navigation_empty_icon=0x7f07007c;
+    public static final int notification_action_background=0x7f07007d;
+    public static final int notification_bg=0x7f07007e;
+    public static final int notification_bg_low=0x7f07007f;
+    public static final int notification_bg_low_normal=0x7f070080;
+    public static final int notification_bg_low_pressed=0x7f070081;
+    public static final int notification_bg_normal=0x7f070082;
+    public static final int notification_bg_normal_pressed=0x7f070083;
+    public static final int notification_icon_background=0x7f070084;
+    public static final int notification_template_icon_bg=0x7f070085;
+    public static final int notification_template_icon_low_bg=0x7f070086;
+    public static final int notification_tile_bg=0x7f070087;
+    public static final int notify_panel_notification_icon_bg=0x7f070088;
+    public static final int tooltip_frame_dark=0x7f070089;
+    public static final int tooltip_frame_light=0x7f07008a;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -4164,11 +4166,17 @@ public final class R {
     public static final int menu_info_shop=0x7f0b0000;
   }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f0c0000;
-    public static final int ic_launcher_foreground_shop=0x7f0c0001;
-    public static final int ic_launcher_round=0x7f0c0002;
-    public static final int ic_shop=0x7f0c0003;
-    public static final int ic_shop_round=0x7f0c0004;
+    public static final int ic_here=0x7f0c0000;
+    public static final int ic_here_round=0x7f0c0001;
+    public static final int ic_launcher=0x7f0c0002;
+    public static final int ic_launcher_foreground_here=0x7f0c0003;
+    public static final int ic_launcher_foreground_shop=0x7f0c0004;
+    public static final int ic_launcher_foreground_shop_map=0x7f0c0005;
+    public static final int ic_launcher_round=0x7f0c0006;
+    public static final int ic_shop=0x7f0c0007;
+    public static final int ic_shop_map=0x7f0c0008;
+    public static final int ic_shop_map_round=0x7f0c0009;
+    public static final int ic_shop_round=0x7f0c000a;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0d0000;
@@ -4258,8 +4266,7 @@ public final class R {
     public static final int title_activity_home=0x7f0d0054;
     public static final int title_activity_home2=0x7f0d0055;
     public static final int title_activity_info_shop=0x7f0d0056;
-    public static final int title_activity_teste=0x7f0d0057;
-    public static final int title_shop=0x7f0d0058;
+    public static final int title_shop=0x7f0d0057;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jun 10 19:32:44 BRT 2018
+#Sun Jul 08 19:05:42 BRT 2018
 1.base=C\:\\Users\\Ramon\\Documents\\PDM\\acheiAqui\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 2.path=classes.dex
 0.baseType=DIRECTORY

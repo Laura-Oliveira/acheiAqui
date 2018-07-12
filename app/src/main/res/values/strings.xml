@@ -16,6 +16,14 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_home">Achei Aqui</string>
     <string name="title_activity_info_shop">InfoShopActivity</string>
+    <string name="check_comida"> Pipoca</string>
+    <string name="check_comida1"> Coxinha</string>
+    <string name="check_comida2"> Pastel</string>
+    <string name="check_comida3"> Refrigerante</string>
+    <string name="check_comida4"> Folheado</string>
+    <string name="check_comida5"> Suco</string>
+    <string name="check_comida6"> Guaraná do Amazonas</string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

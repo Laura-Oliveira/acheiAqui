@@ -94,7 +94,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         CameraPosition cameraPosition = new CameraPosition.Builder().zoom(17).target(currentLocationLatLong).build();
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
-        Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
         getMarkers();
     }
 
@@ -260,17 +260,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
                     startActivity(intent);
                 }
             });
-            /*mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
-                @Override
-                public boolean onMarkerClick(Marker m) {
 
-                        Intent intent = new Intent(HomeActivity.this, ProfileShopActivity.class);
-                        intent.putExtra("nome",  (String) singleLocation.get("name"));
-                        startActivity(intent);
-
-                    return false;
-                }
-            });*/
 
         }
 
@@ -286,16 +276,6 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
 
         Marker shopMarker = mMap.addMarker(markerOptions);
-        /*mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
-            @Override
-            public void onInfoWindowClick(Marker marker) {
-                //Shop actualShop = (Shop) shopMarker.getTag();
-                Intent intent = new Intent(HomeActivity.this, ProfileShopActivity.class);
-                intent.putExtra("nome",  shop.getName());
-                //startActivity(intent);
-                Toast.makeText(HomeActivity.this,  shop.getName(), Toast.LENGTH_SHORT).show();
-            }
-        });*/
 
         return shopMarker;
     }

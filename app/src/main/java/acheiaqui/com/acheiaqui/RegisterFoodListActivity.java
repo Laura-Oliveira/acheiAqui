@@ -62,28 +62,37 @@ public class RegisterFoodListActivity extends AppCompatActivity
         double latitudeShop =  doubleDatas.getDouble("latitude");
         double longitudeShop =  doubleDatas.getDouble("longitude");
 
-        boolean checked = view.isPressed();
-        boolean btnNextPressed = buttonRegister.isPressed();
-        boolean checkedTrue = true;
+        //boolean checked = view.isPressed();
+        //boolean btnNextPressed = buttonRegister.isPressed();
+        //boolean checkedTrue = true;
 
-        if(checked == true && btnNextPressed == true) {
+        //vetor de string para armazenar os nomes das comidas
+        String foodList [] = {food.getText().toString(), food1.getText().toString(),
+                food2.getText().toString(), food3.getText().toString(), food4.getText().toString(),
+                food5.getText().toString(), food6.getText().toString()};
+
+        String shopFoods = "";
+        //verifica se o valor de cada posição do vetor está vazio ou preenchido, se estiver preenchido
+        //adiciona à String
+        for(int count = 0; count < foodList.length; count++){
+            if(foodList[count] != ""){
+                shopFoods += (foodList[count] +" ");
+            }
+        }
+
+        if(shopFoods!="" || shopFoods!= " ") {
 
             DatabaseReference dbReference = database.getReference("shop");
-/*
+
             Shop newShop = new Shop();
             newShop.setName(nameShop);
             newShop.setInfo(infoShop);
             newShop.setReference(referencePointShop);
-            newShop.setFoods(foodsList);
-            newShop.setFoods(food.getText().toString());
-            newShop.setFoods(food1.getText().toString());
-            newShop.setFoods(food2.getText().toString());
-            newShop.setFoods(food3.getText().toString());
-            newShop.setFoods(food4.getText().toString());
+            newShop.setFood(shopFoods);
             newShop.setLatitude(latitudeShop);
             newShop.setLongitude(longitudeShop);
             newShop.setId(dbReference.push().getKey());
-*/
+
             //insere lojinha no banco de dados
             dbReference.child(newShop.getId()).setValue(newShop);
 

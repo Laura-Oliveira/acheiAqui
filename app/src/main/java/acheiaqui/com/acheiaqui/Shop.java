@@ -9,6 +9,7 @@ public class Shop
     private String info;
     private String reference;
     private String[] foods;
+    private String food;
     private double latitude;
     private double longitude;
 
@@ -24,6 +25,14 @@ public class Shop
 
     public Shop(){
 
+    }
+
+    public String getFood() {
+        return food;
+    }
+
+    public void setFood(String food) {
+        this.food = food;
     }
 
     public String getId() {
@@ -57,18 +66,18 @@ public class Shop
     public void setReference(String reference) {
         this.reference = reference;
     }
-    /*
-        public String[] getFoods() {
-            return foods;
-        }
 
-        public void setFoods(String[] foods)
-        {
-            while(foods !=null) {
-                this.foods = foods;
-            }
+    public String[] getFoods() {
+        return foods;
+    }
+
+    public void setFoods(String[] foods)
+    {
+        while(foods !=null) {
+            this.foods = foods;
         }
-    */
+    }
+
     public double getLatitude() {
         return latitude;
     }

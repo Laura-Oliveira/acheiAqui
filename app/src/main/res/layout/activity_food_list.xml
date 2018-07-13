@@ -38,7 +38,6 @@
             android:id="@+id/check_box_comida"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
 
             />
 
@@ -64,7 +63,6 @@
             android:id="@+id/check_box_comida1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
             />
     </LinearLayout>
 
@@ -88,7 +86,6 @@
             android:id="@+id/check_box_comida2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
             />
     </LinearLayout>
 
@@ -112,7 +109,6 @@
             android:id="@+id/check_box_comida3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
             />
     </LinearLayout>
 
@@ -136,7 +132,6 @@
             android:id="@+id/check_box_comida4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
             />
     </LinearLayout>
     <LinearLayout
@@ -159,7 +154,6 @@
             android:id="@+id/check_box_comida5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
             />
     </LinearLayout>
     <LinearLayout
@@ -182,7 +176,6 @@
             android:id="@+id/check_box_comida6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="registerShop"
             />
     </LinearLayout>
 

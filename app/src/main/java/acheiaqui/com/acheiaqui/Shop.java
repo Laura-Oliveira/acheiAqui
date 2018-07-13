@@ -1,16 +1,18 @@
 package acheiaqui.com.acheiaqui;
 
+import android.widget.TextView;
+
 public class Shop
 {
     private String id;
     private String name;
     private String info;
     private String reference;
-    private String foods;
+    private String[] foods;
     private double latitude;
     private double longitude;
 
-    public Shop(String name, String info, String reference, String foods, double latitude, double longitude)
+    public Shop(String name, String info, String reference, String[] foods, double latitude, double longitude)
     {
         this.name = name;
         this.info = info;
@@ -18,8 +20,6 @@ public class Shop
         this.foods = foods;
         this.latitude = latitude;
         this.longitude = longitude;
-
-
     }
 
     public Shop(){
@@ -57,15 +57,18 @@ public class Shop
     public void setReference(String reference) {
         this.reference = reference;
     }
+    /*
+        public String[] getFoods() {
+            return foods;
+        }
 
-    public String getFoods() {
-        return foods;
-    }
-
-    public void setFoods(String foods) {
-        this.foods = foods;
-    }
-
+        public void setFoods(String[] foods)
+        {
+            while(foods !=null) {
+                this.foods = foods;
+            }
+        }
+    */
     public double getLatitude() {
         return latitude;
     }

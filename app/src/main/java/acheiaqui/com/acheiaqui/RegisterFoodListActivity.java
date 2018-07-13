@@ -1,4 +1,3 @@
-
 package acheiaqui.com.acheiaqui;
 
 import android.content.Intent;
@@ -6,8 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.Checkable;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -17,20 +20,33 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import org.w3c.dom.Text;
+
 import java.util.Date;
 
 public class RegisterFoodListActivity extends AppCompatActivity
 {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
-    private EditText foods;
+    private TextView food,food1, food2,food3,food4,food5,food6;
+    private CheckBox checkFood;
     private StorageReference storageReference;
+    private Button buttonRegister;
+    private TextView[] foodsList = {food, food1, food2, food3, food4, food5, food6};
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
-        foods = (EditText) findViewById(R.id.registerfoods_shop);
+        food = findViewById(R.id.check_comida);
+        food1 = findViewById(R.id.check_comida1);
+        food2 = findViewById(R.id.check_comida2);
+        food3 = findViewById(R.id.check_comida3);
+        food4 = findViewById(R.id.check_comida4);
+        food5 = findViewById(R.id.check_comida5);
+        food6 = findViewById(R.id.check_comida6);
+        checkFood = findViewById(R.id.check_box_comida);
+        buttonRegister = findViewById(R.id.btn_register);
 
         //Pega a referencia do Storage do firebase
         storageReference = FirebaseStorage.getInstance().getReference();
@@ -46,19 +62,28 @@ public class RegisterFoodListActivity extends AppCompatActivity
         double latitudeShop =  doubleDatas.getDouble("latitude");
         double longitudeShop =  doubleDatas.getDouble("longitude");
 
-        if(foods.toString().length()!=0) {
+        boolean checked = view.isPressed();
+        boolean btnNextPressed = buttonRegister.isPressed();
+        boolean checkedTrue = true;
+
+        if(checked == true && btnNextPressed == true) {
 
             DatabaseReference dbReference = database.getReference("shop");
-
+/*
             Shop newShop = new Shop();
             newShop.setName(nameShop);
             newShop.setInfo(infoShop);
             newShop.setReference(referencePointShop);
-            newShop.setFoods(foods.getText().toString());
+            newShop.setFoods(foodsList);
+            newShop.setFoods(food.getText().toString());
+            newShop.setFoods(food1.getText().toString());
+            newShop.setFoods(food2.getText().toString());
+            newShop.setFoods(food3.getText().toString());
+            newShop.setFoods(food4.getText().toString());
             newShop.setLatitude(latitudeShop);
             newShop.setLongitude(longitudeShop);
             newShop.setId(dbReference.push().getKey());
-
+*/
             //insere lojinha no banco de dados
             dbReference.child(newShop.getId()).setValue(newShop);
 

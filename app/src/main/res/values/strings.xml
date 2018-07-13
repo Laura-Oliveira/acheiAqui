@@ -23,6 +23,9 @@
     <string name="check_comida4"> Folheado</string>
     <string name="check_comida5"> Suco</string>
     <string name="check_comida6"> Guaraná do Amazonas</string>
+    <string name="profile_info_shop"> Informações</string>
+    <string name="profile_referene_point">Pontos de referência</string>
+    <string name="profile_food_shop">Cárdapio</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"

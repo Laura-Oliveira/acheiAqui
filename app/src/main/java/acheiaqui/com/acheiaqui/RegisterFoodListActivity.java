@@ -28,25 +28,33 @@ public class RegisterFoodListActivity extends AppCompatActivity
 {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private TextView food,food1, food2,food3,food4,food5,food6;
-    private CheckBox checkFood;
+    private CheckBox checkFood, checkFood1, checkFood2, checkFood3, checkFood4, checkFood5, checkFood6;
     private StorageReference storageReference;
     private Button buttonRegister;
-    private TextView[] foodsList = {food, food1, food2, food3, food4, food5, food6};
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
-        food = findViewById(R.id.check_comida);
-        food1 = findViewById(R.id.check_comida1);
-        food2 = findViewById(R.id.check_comida2);
-        food3 = findViewById(R.id.check_comida3);
-        food4 = findViewById(R.id.check_comida4);
-        food5 = findViewById(R.id.check_comida5);
-        food6 = findViewById(R.id.check_comida6);
-        checkFood = findViewById(R.id.check_box_comida);
+
+        food =  (TextView) findViewById(R.id.check_comida);
+        food1 = (TextView) findViewById(R.id.check_comida1);
+        food2 = (TextView) findViewById(R.id.check_comida2);
+        food3 = (TextView) findViewById(R.id.check_comida3);
+        food4 = (TextView) findViewById(R.id.check_comida4);
+        food5 = (TextView) findViewById(R.id.check_comida5);
+        food6 = (TextView) findViewById(R.id.check_comida6);
+        checkFood = (CheckBox) findViewById(R.id.check_box_comida);
+        checkFood1 = (CheckBox) findViewById(R.id.check_box_comida1);
+        checkFood2 = (CheckBox) findViewById(R.id.check_box_comida2);
+        checkFood3 = (CheckBox) findViewById(R.id.check_box_comida3);
+        checkFood4 = (CheckBox) findViewById(R.id.check_box_comida4);
+        checkFood5 = (CheckBox) findViewById(R.id.check_box_comida5);
+        checkFood6 = (CheckBox) findViewById(R.id.check_box_comida6);
+
         buttonRegister = findViewById(R.id.btn_register);
+
 
         //Pega a referencia do Storage do firebase
         storageReference = FirebaseStorage.getInstance().getReference();
@@ -62,23 +70,30 @@ public class RegisterFoodListActivity extends AppCompatActivity
         double latitudeShop =  doubleDatas.getDouble("latitude");
         double longitudeShop =  doubleDatas.getDouble("longitude");
 
-        //boolean checked = view.isPressed();
-        //boolean btnNextPressed = buttonRegister.isPressed();
-        //boolean checkedTrue = true;
-
-        //vetor de string para armazenar os nomes das comidas
-        String foodList [] = {food.getText().toString(), food1.getText().toString(),
-                food2.getText().toString(), food3.getText().toString(), food4.getText().toString(),
-                food5.getText().toString(), food6.getText().toString()};
 
         String shopFoods = "";
-        //verifica se o valor de cada posição do vetor está vazio ou preenchido, se estiver preenchido
-        //adiciona à String
-        for(int count = 0; count < foodList.length; count++){
-            if(foodList[count] != ""){
-                shopFoods += (foodList[count] +" ");
-            }
+        if(checkFood.isChecked()){
+            shopFoods += (food.getText().toString()+"\n");
         }
+        if(checkFood1.isChecked()){
+            shopFoods += (food1.getText().toString()+"\n");
+        }
+        if(checkFood2.isChecked()){
+            shopFoods += (food2.getText().toString()+"\n");
+        }
+        if(checkFood3.isChecked()){
+            shopFoods += (food3.getText().toString()+"\n");
+        }
+        if(checkFood4.isChecked()){
+            shopFoods += (food4.getText().toString()+"\n");
+        }
+        if(checkFood5.isChecked()){
+            shopFoods += (food5.getText().toString()+"\n");
+        }
+        if(checkFood6.isChecked()){
+            shopFoods += (food6.getText().toString());
+        }
+
 
         if(shopFoods!="" || shopFoods!= " ") {
 

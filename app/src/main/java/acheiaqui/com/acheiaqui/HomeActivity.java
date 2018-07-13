@@ -245,6 +245,8 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
             shop.setName((String) singleLocation.get("name"));
             shop.setInfo((String) singleLocation.get("info"));
             shop.setId((String) singleLocation.get("id"));
+            shop.setReference((String) singleLocation.get("reference"));
+            shop.setFood((String) singleLocation.get("food"));
             shop.setLatitude((Double) singleLocation.get("latitude"));
             shop.setLongitude((Double) singleLocation.get("longitude"));
             LatLng latLng = new LatLng(shop.getLatitude(), shop.getLongitude());
@@ -252,11 +254,13 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
                 @Override
                 public void onInfoWindowClick(Marker marker) {
-                    Shop s = (Shop) marker.getTag();
+                    Shop actualShop = (Shop) marker.getTag();
                     Intent intent = new Intent(HomeActivity.this, ProfileShopActivity.class);
-                    intent.putExtra("name", s.getName());
-                    intent.putExtra("info", s.getInfo());
-                    intent.putExtra("id", s.getId());
+                    intent.putExtra("name", actualShop.getName());
+                    intent.putExtra("info", actualShop.getInfo());
+                    intent.putExtra("id", actualShop.getId());
+                    intent.putExtra("reference", actualShop.getReference());
+                    intent.putExtra("food", actualShop.getFood());
                     startActivity(intent);
                 }
             });

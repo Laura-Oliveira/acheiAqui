@@ -43,15 +43,18 @@ public class ProfileShopActivity extends AppCompatActivity {
         TextView nameShopText = (TextView) findViewById(R.id.profile_name_shop);
         TextView infoShopText = (TextView) findViewById(R.id.profile_info_shop);
         TextView referencePointText = (TextView) findViewById(R.id.profile_reference_point);
-        TextView addressShopText = findViewById(R.id.profile_address_shop);
+        TextView food = (TextView) findViewById(R.id.profile_foods_shop);
 
-        Toast.makeText(this, intent.getStringExtra("name"), Toast.LENGTH_SHORT).show();
         String name = intent.getStringExtra("name");
         String info = intent.getStringExtra("info");
-        String id = intent.getStringExtra("id");
+        String id = intent.getStringExtra("id"); //para pegar o id e exibir a imagem
+        String referencePoint = intent.getStringExtra("reference");
+        String foods = intent.getStringExtra("food");
+
         nameShopText.setText(name);
         infoShopText.setText(info);
-        referencePointText.setText(id);
+        referencePointText.setText(referencePoint);
+        food.setText(foods);
 
         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
         StorageReference storageReference = firebaseStorage.getReferenceFromUrl("gs://acheiaqui-3a20f.appspot.com/").child("pictures").child(id);

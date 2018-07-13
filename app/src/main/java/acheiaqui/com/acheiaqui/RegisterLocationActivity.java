@@ -95,7 +95,7 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
         locationData.setLatitude(location.getLatitude());
         locationData.setLongitude(location.getLongitude());
 
-        Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
     }
 
 

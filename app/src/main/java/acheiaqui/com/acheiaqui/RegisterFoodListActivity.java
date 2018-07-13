@@ -1,4 +1,3 @@
-
 package acheiaqui.com.acheiaqui;
 
 import android.content.Intent;
@@ -6,8 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.Checkable;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -17,20 +20,41 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import org.w3c.dom.Text;
+
 import java.util.Date;
 
 public class RegisterFoodListActivity extends AppCompatActivity
 {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
-    private EditText foods;
+    private TextView food,food1, food2,food3,food4,food5,food6;
+    private CheckBox checkFood, checkFood1, checkFood2, checkFood3, checkFood4, checkFood5, checkFood6;
     private StorageReference storageReference;
+    private Button buttonRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
-        foods = (EditText) findViewById(R.id.registerfoods_shop);
+
+        food =  (TextView) findViewById(R.id.check_comida);
+        food1 = (TextView) findViewById(R.id.check_comida1);
+        food2 = (TextView) findViewById(R.id.check_comida2);
+        food3 = (TextView) findViewById(R.id.check_comida3);
+        food4 = (TextView) findViewById(R.id.check_comida4);
+        food5 = (TextView) findViewById(R.id.check_comida5);
+        food6 = (TextView) findViewById(R.id.check_comida6);
+        checkFood = (CheckBox) findViewById(R.id.check_box_comida);
+        checkFood1 = (CheckBox) findViewById(R.id.check_box_comida1);
+        checkFood2 = (CheckBox) findViewById(R.id.check_box_comida2);
+        checkFood3 = (CheckBox) findViewById(R.id.check_box_comida3);
+        checkFood4 = (CheckBox) findViewById(R.id.check_box_comida4);
+        checkFood5 = (CheckBox) findViewById(R.id.check_box_comida5);
+        checkFood6 = (CheckBox) findViewById(R.id.check_box_comida6);
+
+        buttonRegister = findViewById(R.id.btn_register);
+
 
         //Pega a referencia do Storage do firebase
         storageReference = FirebaseStorage.getInstance().getReference();
@@ -46,7 +70,32 @@ public class RegisterFoodListActivity extends AppCompatActivity
         double latitudeShop =  doubleDatas.getDouble("latitude");
         double longitudeShop =  doubleDatas.getDouble("longitude");
 
-        if(foods.toString().length()!=0) {
+
+        String shopFoods = "";
+        if(checkFood.isChecked()){
+            shopFoods += (food.getText().toString()+"\n");
+        }
+        if(checkFood1.isChecked()){
+            shopFoods += (food1.getText().toString()+"\n");
+        }
+        if(checkFood2.isChecked()){
+            shopFoods += (food2.getText().toString()+"\n");
+        }
+        if(checkFood3.isChecked()){
+            shopFoods += (food3.getText().toString()+"\n");
+        }
+        if(checkFood4.isChecked()){
+            shopFoods += (food4.getText().toString()+"\n");
+        }
+        if(checkFood5.isChecked()){
+            shopFoods += (food5.getText().toString()+"\n");
+        }
+        if(checkFood6.isChecked()){
+            shopFoods += (food6.getText().toString());
+        }
+
+
+        if(shopFoods!="" || shopFoods!= " ") {
 
             DatabaseReference dbReference = database.getReference("shop");
 
@@ -54,7 +103,7 @@ public class RegisterFoodListActivity extends AppCompatActivity
             newShop.setName(nameShop);
             newShop.setInfo(infoShop);
             newShop.setReference(referencePointShop);
-            newShop.setFoods(foods.getText().toString());
+            newShop.setFood(shopFoods);
             newShop.setLatitude(latitudeShop);
             newShop.setLongitude(longitudeShop);
             newShop.setId(dbReference.push().getKey());

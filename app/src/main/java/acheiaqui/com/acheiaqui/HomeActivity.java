@@ -43,8 +43,6 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     private LatLng currentLocationLatLong;
     private DatabaseReference mDatabase;
 
-    private Marker shopMarker;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,8 +67,8 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerShop = new MarkerOptions();
         markerShop.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop));
         MarkerOptions markerAtualLocation = new MarkerOptions();
-        markerAtualLocation.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_round));
-        */
+        markerAtualLocation.icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_shop_round));*/
+
     }
 
     //funcao que pega a localizacao atual do cliente, caso este permita que sua localizacao seja utilizada,
@@ -96,7 +94,7 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         CameraPosition cameraPosition = new CameraPosition.Builder().zoom(17).target(currentLocationLatLong).build();
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
-        Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Localização atualizada", Toast.LENGTH_SHORT).show();
         getMarkers();
     }
 
@@ -245,18 +243,35 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
             Shop shop = new Shop();
             Map singleLocation = (Map) entry.getValue();
             shop.setName((String) singleLocation.get("name"));
+            shop.setInfo((String) singleLocation.get("info"));
+            shop.setId((String) singleLocation.get("id"));
+            shop.setReference((String) singleLocation.get("reference"));
+            shop.setFood((String) singleLocation.get("food"));
             shop.setLatitude((Double) singleLocation.get("latitude"));
             shop.setLongitude((Double) singleLocation.get("longitude"));
-
             LatLng latLng = new LatLng(shop.getLatitude(), shop.getLongitude());
-            addGreenMarker(shop, latLng);
+            addGreenMarker(shop, latLng).setTag(shop);
+            mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+                @Override
+                public void onInfoWindowClick(Marker marker) {
+                    Shop actualShop = (Shop) marker.getTag();
+                    Intent intent = new Intent(HomeActivity.this, ProfileShopActivity.class);
+                    intent.putExtra("name", actualShop.getName());
+                    intent.putExtra("info", actualShop.getInfo());
+                    intent.putExtra("id", actualShop.getId());
+                    intent.putExtra("reference", actualShop.getReference());
+                    intent.putExtra("food", actualShop.getFood());
+                    startActivity(intent);
+                }
+            });
+
 
         }
 
 
     }
 
-    private void addGreenMarker(Shop shop, LatLng latLng) {
+    private Marker addGreenMarker(final Shop shop, LatLng latLng) {
 
 
         MarkerOptions markerOptions = new MarkerOptions();
@@ -264,7 +279,9 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         markerOptions.title(shop.getName());
         markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET));
 
-        shopMarker = mMap.addMarker(markerOptions);
+        Marker shopMarker = mMap.addMarker(markerOptions);
+
+        return shopMarker;
     }
 
 

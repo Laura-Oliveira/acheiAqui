@@ -29,6 +29,7 @@ MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Ramon\.
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\c042a9e52f154874559e00a957d29dc6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\26ac1d6039dd20b7a0270cb1bc203cb4\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\61124182f3b1950cbfcb04f8fd1a7354\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\41463b67d365b128ea7a248bf4b3b76d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5d2fd954d4c63dd9a10160df6d51d2d3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\e0194a0de9f579e9270b12a4cda39fff\AndroidManifest.xml:17:1-22:12
@@ -38,6 +39,7 @@ MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ramon\
 MERGED from [com.android.support:transition:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b3b244ff97bf6ea34c6f217b25ec9d02\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9e4e472f02e6420a9a2c1d821ba4472a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0fa8e7a89890557e77dbb046845440a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\b1df0b199982d6545cdcc2863118b8a9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\6d1a9a0b665d1e376b78316e5868e6b5\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a61d2a1043cdc039ea3413a269279133\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c6730c4348109ab3ad5e497c762af456\AndroidManifest.xml:17:1-22:12
@@ -118,6 +120,8 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\c042a9e52f154874559e00a957d29dc6\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\26ac1d6039dd20b7a0270cb1bc203cb4\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\26ac1d6039dd20b7a0270cb1bc203cb4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\6d1a9a0b665d1e376b78316e5868e6b5\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\6d1a9a0b665d1e376b78316e5868e6b5\AndroidManifest.xml:22:5-20
 	android:supportsRtl
@@ -224,6 +228,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramo
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\26ac1d6039dd20b7a0270cb1bc203cb4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\61124182f3b1950cbfcb04f8fd1a7354\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\61124182f3b1950cbfcb04f8fd1a7354\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\41463b67d365b128ea7a248bf4b3b76d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\41463b67d365b128ea7a248bf4b3b76d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5d2fd954d4c63dd9a10160df6d51d2d3\AndroidManifest.xml:20:5-44
@@ -242,6 +248,8 @@ MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ramon\.gr
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\9e4e472f02e6420a9a2c1d821ba4472a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0fa8e7a89890557e77dbb046845440a6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0fa8e7a89890557e77dbb046845440a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\b1df0b199982d6545cdcc2863118b8a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\b1df0b199982d6545cdcc2863118b8a9\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\6d1a9a0b665d1e376b78316e5868e6b5\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\6d1a9a0b665d1e376b78316e5868e6b5\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a61d2a1043cdc039ea3413a269279133\AndroidManifest.xml:20:5-44
@@ -448,3 +456,11 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\26ac1d6039dd20b7a0270cb1bc203cb4\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\26ac1d6039dd20b7a0270cb1bc203cb4\AndroidManifest.xml:24:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Ramon\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\cd5b6637a01e289dca3258b8c0c5a05a\AndroidManifest.xml:9:13-64

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileShopActivity">
+
+    <ImageView
+        android:id="@+id/profile_image_shop"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_marginBottom="10pt"/>
+
+    <TextView
+        android:id="@+id/profile_name_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cor_texto_button"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginBottom="10pt"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/label_info_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/profile_info_shop"
+        android:layout_gravity="center"
+        />
+
+        <TextView
+            android:id="@+id/profile_info_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8pt"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginBottom="10pt"
+            android:layout_marginLeft="5pt"
+            />
+
+    <TextView
+        android:id="@+id/label_reference_point_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/profile_referene_point"
+        android:layout_gravity="center"
+        />
+
+        <TextView
+            android:id="@+id/profile_reference_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8pt"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginBottom="10pt"
+            android:layout_marginLeft="5pt"
+            />
+
+    <TextView
+        android:id="@+id/label_food_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/profile_food_shop"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/profile_foods_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="8pt"
+        android:maxLines="7"
+        android:singleLine="true"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="5pt"
+        />
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,4 +1,4 @@
-package acheiaqui.com.acheiaqui;
+package com.acheiAqui.Model;
 
 public class LocationData
 {

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterInfoShopActivity"
+    tools:context="com.acheiAqui.Control.RegisterInfoShopActivity"
     android:orientation="vertical">
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="470dp"
         android:layout_weight="1"
-        tools:context=".RegisterLocationActivity" />
+        tools:context="com.acheiAqui.Control.RegisterLocationActivity" />
 
     <Button
         android:id="@+id/btn_locationRegister"

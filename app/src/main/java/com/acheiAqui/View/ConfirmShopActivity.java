@@ -1,9 +1,14 @@
-package acheiaqui.com.acheiaqui;
+package com.acheiAqui.View;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.acheiAqui.Control.RegisterFoodListActivity;
+
+import acheiaqui.com.acheiAqui.R;
 
 public class ConfirmShopActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package acheiaqui.com.acheiaqui;
+package com.acheiAqui.Control;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,16 +9,16 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Build;
 import android.provider.Settings;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.acheiAqui.Model.LocationData;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -31,6 +31,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 
 import java.util.ArrayList;
+
+import acheiaqui.com.acheiAqui.R;
 
 public class RegisterLocationActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 

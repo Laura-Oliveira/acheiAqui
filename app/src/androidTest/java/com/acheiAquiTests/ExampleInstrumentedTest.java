@@ -1,4 +1,4 @@
-package acheiaqui.com.acheiaqui;
+package com.acheiAquiTests;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

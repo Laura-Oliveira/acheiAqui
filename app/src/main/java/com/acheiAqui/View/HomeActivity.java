@@ -1,4 +1,4 @@
-package acheiaqui.com.acheiaqui;
+package com.acheiAqui.View;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,13 +9,16 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Build;
 import android.provider.Settings;
+
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Toast;
 
+import com.acheiAqui.Model.Shop;
+import com.acheiAqui.Control.RegisterInfoShopActivity;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -33,6 +36,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Map;
+
+import acheiaqui.com.acheiAqui.R;
 
 public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 

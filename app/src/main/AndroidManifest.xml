@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="acheiaqui.com.acheiaqui">
+    package="acheiaqui.com.acheiAqui">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -14,8 +14,11 @@
         android:roundIcon="@mipmap/ic_shop"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
         <activity
-            android:name=".HomeActivity"
+            android:name="com.acheiAqui.View.HomeActivity"
             android:label="@string/title_activity_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,10 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterInfoShopActivity"></activity>
-        <activity android:name=".RegisterFoodListActivity"></activity>
-        <activity android:name=".RegisterLocationActivity"></activity>
-        <activity android:name=".ProfileShopActivity"></activity>
+        <activity android:name="com.acheiAqui.Control.RegisterInfoShopActivity"></activity>
+        <activity android:name="com.acheiAqui.Control.RegisterFoodListActivity"></activity>
+        <activity android:name="com.acheiAqui.Control.RegisterLocationActivity"></activity>
+        <activity android:name="com.acheiAqui.View.ProfileShopActivity"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

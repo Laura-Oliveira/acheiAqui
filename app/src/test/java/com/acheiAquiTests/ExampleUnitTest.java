@@ -1,4 +1,4 @@
-package acheiaqui.com.acheiaqui;
+package com.acheiAquiTests;
 
 import org.junit.Test;
 

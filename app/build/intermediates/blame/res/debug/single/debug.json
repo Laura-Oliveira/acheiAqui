@@ -104,12 +104,12 @@
         "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here_round.png"
-    },
-    {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_here_round.png.flat",
         "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_here_round.png"
+    },
+    {
+        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here_round.png.flat",
+        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here_round.png"
     },
     {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -140,12 +140,12 @@
         "source": "/home/oem/Documents/acheiAqui/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here.png"
-    },
-    {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background_shop_map.png.flat",
         "source": "/home/oem/Documents/acheiAqui/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background_shop_map.png"
+    },
+    {
+        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here.png.flat",
+        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here.png"
     },
     {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",

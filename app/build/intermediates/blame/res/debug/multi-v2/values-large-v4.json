@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/26588151e9a36f685d4d5d5b82de9e64/material-1.2.0-alpha03/res/values-large-v4/values-large-v4.xml",
+                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/24cc3567f008c528aa9699a3c12078a6/material-1.1.0-alpha06/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

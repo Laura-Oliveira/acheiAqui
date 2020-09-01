@@ -94,9 +94,9 @@ public class RegisterInfoShopActivity extends AppCompatActivity {
     public void nextPageButton(View view)
     {
 
-        EditText edName = (EditText) findViewById(R.id.name_shop);
-        EditText edInfo = (EditText) findViewById(R.id.shop_info);
-        EditText edReferencePoint = (EditText) findViewById(R.id.reference_point);
+        EditText edName = (EditText) findViewById(R.id.input_register_name_shop);
+        EditText edInfo = (EditText) findViewById(R.id.input_register_info_shop);
+        EditText edReferencePoint = (EditText) findViewById(R.id.input_register_reference_point_shop);
 
         String name = edName.getText().toString();
         String info = edInfo.getText().toString();

@@ -3,9 +3,13 @@
     <color name="colorPrimary">#4B0082</color>
     <color name="colorPrimaryDark">#9932CC</color>
     <color name="colorAccent">#8A2BE2</color>
-    <color name="button">#4B0082</color>
-    <color name="cor_texto_button">#ffffff</color>
-    <color name="cor_texto">#000</color>
+    <color name="btn_color">#4B0082</color>
+    <color name="btn_text">#ffffff</color>
+    <color name="backgroundColor"> #FFFF</color>
+    <color name="color_hint_text">#4B0082</color>
 
+    <!--
+     <color name="cor_texto">#000</color>
     <color name="black_overlay">#66000000</color>
+    -->
 </resources>

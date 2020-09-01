@@ -1,90 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/screen_register_shop"
     tools:context="com.acheiAqui.Control.RegisterInfoShopActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
-
-    <TextView
-        android:id="@+id/registered_shop"
-        android:text="CADASTRAR NOVO PONTO DE VENDA"
-        android:textSize="10pt"
-        android:textColor="@color/colorPrimary"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp" />
-
-    <ImageView
-        android:id="@+id/image_shop"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="182dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LoginActivity"
+        >
 
-    <Button
-        android:id="@+id/btn_upload_image_shop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_image_shop"
-        android:layout_gravity="bottom|right|end"
-        android:background="@color/button"
-        android:textColor="@color/cor_texto_button"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/txt_description_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_shop_round"
+            >
+        </ImageView>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="75dp"
+            android:text="@string/txt_register_shop_title"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textColor="@color/btn_color"
+            >
+        </TextView>
 
-    <EditText
-        android:id="@+id/name_shop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/name_shop"
-        android:inputType="text"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:textColor="@color/cor_texto"
-        android:textColorHint="@color/cor_texto" />
+        <!-- =============== PHOTO SHOP =============== -->
 
-    <EditText
-        android:id="@+id/shop_info"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Descrição do local"
-        android:inputType="text"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:textColor="@color/cor_texto"
-        android:textColorHint="@color/cor_texto"
-        />
-
-    <EditText
-        android:id="@+id/reference_point"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/reference_point"
-        android:inputType="text"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:textColor="@color/cor_texto"
-        android:textColorHint="@color/cor_texto" />
-
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Button
-            android:id="@+id/btn_register"
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_shop"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp"
-            android:background="@color/button"
-            android:onClick="nextPageButton"
-            android:text="Próximo"
-            android:textColor="@color/cor_texto_button"
-            android:textSize="10pt"
-            android:textStyle="bold" />
-    </RelativeLayout>
+            android:layout_height="182dp">
 
-</LinearLayout>
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_upload_image_shop"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="200dp"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/btn_color"
+            android:text="@string/btn_register_add_image_shop"
+            android:textColor="@color/btn_text"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="10sp"
+            >
+        </com.google.android.material.button.MaterialButton>
+
+        <!-- =============== NAME SHOP =============== -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_register_name_shop_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:hint="@string/txt_hint_register_name_shop"
+            android:layout_marginTop="20dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_register_name_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textCapCharacters"
+                android:maxLines="1"
+                app:endIconMode="clear_text"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- =============== INFORMATION SHOP =============== -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_register_info_shop_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:hint="@string/txt_hint_register_info_shop"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_register_info_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text|textLongMessage"
+                android:maxLines="3"
+                app:endIconMode="clear_text"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- =============== REFERENCE POINT SHOP =============== -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_register_reference_point_shop_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:hint="@string/txt_hint_register_reference_point_shop"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_register_reference_point_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text|textLongMessage"
+                android:maxLines="2"
+                app:endIconMode="clear_text"
+                android:textColorHint="@color/color_hint_text"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- =============== REGISTER BUTTON SHOP =============== -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register_shop"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:backgroundTint="@color/btn_color"
+                android:text="@string/btn_register_next_page_shop"
+                android:textColor="@color/btn_text"
+                android:textStyle="bold"
+                android:onClick="nextPageButton"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                >
+            </com.google.android.material.button.MaterialButton>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

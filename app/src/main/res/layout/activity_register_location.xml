@@ -35,7 +35,7 @@
         android:layout_weight="1"
         android:background="@color/colorPrimary"
         android:text="Próximo"
-        android:textColor="@color/cor_texto_button"
+        android:textColor="@color/btn_text"
         android:textSize="10pt"
         android:textStyle="bold"
         android:onClick="nextPageButton"/>

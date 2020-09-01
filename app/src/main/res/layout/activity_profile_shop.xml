@@ -22,7 +22,7 @@
         android:id="@+id/profile_name_shop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/cor_texto_button"
+        android:textColor="@color/btn_text"
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="10pt"

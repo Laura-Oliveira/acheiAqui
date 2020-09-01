@@ -49,7 +49,7 @@ public class RegisterFoodListActivity extends AppCompatActivity
         checkFood5 = (CheckBox) findViewById(R.id.check_box_comida5);
         checkFood6 = (CheckBox) findViewById(R.id.check_box_comida6);
 
-        buttonRegister = findViewById(R.id.btn_register);
+        buttonRegister = findViewById(R.id.btn_register_shop);
 
 
         //Pega a referencia do Storage do firebase

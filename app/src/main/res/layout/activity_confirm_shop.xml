@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.acheiAqui.View.ConfirmShopActivity">
+    android:layout_width="match_parent"
+    android:id="@+id/screen_register_shop"
+    tools:context="com.acheiAqui.View.ConfirmShopActivity"
+    android:orientation="vertical"
+    >
 
     <TextView
         android:id="@+id/registered_shop"
@@ -24,7 +28,7 @@
         <Button
             android:id="@+id/btn_home"
             android:background="@color/colorPrimary"
-            android:textColor="@color/cor_texto_button"
+            android:textColor="@color/btn_text"
             android:text="@string/btn_home"
             android:textStyle="bold"
             android:textSize="10pt"
@@ -36,4 +40,4 @@
 
     </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

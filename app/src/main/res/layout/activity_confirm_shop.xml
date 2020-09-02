@@ -28,7 +28,7 @@
         <Button
             android:id="@+id/btn_home"
             android:background="@color/colorPrimary"
-            android:textColor="@color/btn_text"
+            android:textColor="@color/btn_text_color"
             android:text="@string/btn_home"
             android:textStyle="bold"
             android:textSize="10pt"

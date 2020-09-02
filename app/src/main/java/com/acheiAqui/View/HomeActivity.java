@@ -17,6 +17,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.acheiAqui.Control.LoginActivity;
 import com.acheiAqui.Model.Shop;
 import com.acheiAqui.Control.RegisterInfoShopActivity;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -305,9 +306,9 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-    public void registerNewShop(View ciew){
+    public void registerNewShop(View view){
 
-        Intent intent = new Intent(this, RegisterInfoShopActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 

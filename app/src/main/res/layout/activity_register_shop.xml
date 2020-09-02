@@ -57,7 +57,7 @@
             android:layout_height="70sp"
             android:backgroundTint="@color/btn_color"
             android:text="@string/btn_register_add_image_shop"
-            android:textColor="@color/btn_text"
+            android:textColor="@color/btn_text_color"
             android:layout_gravity="bottom|end"
             android:layout_marginRight="10sp"
             >
@@ -140,7 +140,7 @@
                 android:layout_height="70sp"
                 android:backgroundTint="@color/btn_color"
                 android:text="@string/btn_register_next_page_shop"
-                android:textColor="@color/btn_text"
+                android:textColor="@color/btn_text_color"
                 android:textStyle="bold"
                 android:onClick="nextPageButton"
                 android:layout_alignParentBottom="true"

@@ -12,7 +12,7 @@
 
     <TextView
         android:id="@+id/registered_shop"
-        android:text="@string/registered_shop"
+        android:text="@string/txt_registered_shop"
         android:textSize="14pt"
         android:textColor="@color/colorPrimary"
         android:paddingTop="200dp"

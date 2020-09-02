@@ -221,7 +221,7 @@ public class RegisterLocationActivity extends FragmentActivity implements OnMapR
 
     }
 
-    public void nextPageButton(View view)
+    public void nextPageButtonFoodList(View view)
     {
         Location location;
         String nameShop = getIntent().getStringExtra("name");

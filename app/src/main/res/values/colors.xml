@@ -5,8 +5,9 @@
     <color name="colorAccent">#8A2BE2</color>
     <color name="btn_color">#4B0082</color>
     <color name="btn_text_color">#ffffff</color>
-    <color name="backgroundColor"> #FFFF</color>
+    <color name="backgroundColor"> #BA68C8 </color>
     <color name="color_hint_text">#4B0082</color>
+    <color name="color_black"> #FAFAFA </color>
 
     <!--
      <color name="cor_texto">#000</color>

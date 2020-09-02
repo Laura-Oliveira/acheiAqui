@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+<androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,14 +11,14 @@
     android:orientation="vertical"
     >
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".LoginActivity"
         >
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:contentDescription="@string/txt_description_image"
@@ -27,9 +27,9 @@
             android:layout_marginBottom="8dp"
             android:src="@mipmap/achei_aqui_round"
             >
-        </ImageView>
+        </androidx.appcompat.widget.AppCompatImageView>
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -39,7 +39,7 @@
             android:textSize="16sp"
             android:textColor="@color/btn_color"
             >
-        </TextView>
+        </androidx.appcompat.widget.AppCompatTextView>
 
         <!-- =============== PHOTO SHOP =============== -->
 
@@ -150,5 +150,5 @@
 
         </RelativeLayout>
 
-    </LinearLayout>
-</ScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

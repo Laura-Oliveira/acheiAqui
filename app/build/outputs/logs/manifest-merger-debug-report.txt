@@ -165,7 +165,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home
 	android:label
 		ADDED from /home/oem/Documents/acheiAqui/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/oem/Documents/acheiAqui/app/src/main/AndroidManifest.xml:14:9-44
+		ADDED from /home/oem/Documents/acheiAqui/app/src/main/AndroidManifest.xml:14:9-53
 	android:icon
 		ADDED from /home/oem/Documents/acheiAqui/app/src/main/AndroidManifest.xml:12:9-39
 	android:allowBackup

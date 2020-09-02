@@ -11,7 +11,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_shop"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_shop"
+        android:roundIcon="@mipmap/achei_aqui_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.acheiAqui.Control.LoginActivity"></activity>

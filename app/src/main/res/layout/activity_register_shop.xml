@@ -42,7 +42,6 @@
         </androidx.appcompat.widget.AppCompatTextView>
 
         <!-- =============== PHOTO SHOP =============== -->
-
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/image_shop"
             android:layout_width="match_parent"
@@ -77,7 +76,7 @@
                 android:id="@+id/input_register_name_shop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textCapCharacters"
+                android:inputType="textCapWords"
                 android:maxLines="1"
                 app:endIconMode="clear_text"
                 >
@@ -91,7 +90,7 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:hint="@string/txt_hint_register_info_shop"
-
+            android:inputType="textCapWords"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -112,7 +111,7 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:hint="@string/txt_hint_register_reference_point_shop"
-
+            android:inputType="textCapWords"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -128,7 +127,6 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- =============== REGISTER BUTTON SHOP =============== -->
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">

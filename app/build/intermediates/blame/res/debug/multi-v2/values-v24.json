@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/b2944e8200bcb066d17d49b8df9155a1/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/73a5f75e47b16819fc428a5bd116fc4f/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

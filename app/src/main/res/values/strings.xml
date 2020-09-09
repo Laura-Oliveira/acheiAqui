@@ -25,13 +25,14 @@
 
     <!-- ======== FOOD LIST LAYOUT ACTIVITY ======== -->
     <string name="food_list">O que Vende no Estabelecimento? </string>
+    <string name="txt_register_food_list_shop"> Cadastrar Lista de Comidas </string>
     <string name="hint_food_list">
         Exemplo:\n
         Hamburguer;\n
         Sanduíche;\n
         Pastel;\n
     </string>
-    <string name="btn_register_food_list"> Cadastrar Lista de Comidas</string>
+    <string name="btn_register_food_list"> Cadastrar Lista </string>
 
     <!-- ======== REGISTER LOCATION LAYOUT ACTIVITY ======== -->
     <string name="txt_register_location_shop">Se preciso, segure e arraste o marcador para determinar a posição no mapa</string>

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background_shop_map.png"
-    },
-    {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_shop_map.png.flat",
         "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_shop_map.png"
+    },
+    {
+        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background_shop_map.png.flat",
+        "source": "/home/oem/Documents/acheiAqui/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background_shop_map.png"
     },
     {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop.png.flat",

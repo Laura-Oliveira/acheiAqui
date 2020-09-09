@@ -26,8 +26,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name="com.acheiAqui.Control.RegisterInfoShopActivity" />
-        <activity android:name="com.acheiAqui.Control.RegisterFoodListActivity" />
+
+        <activity android:name="com.acheiAqui.Control.RegisterFoodListActivity"/>
+
+
         <activity android:name="com.acheiAqui.Control.RegisterLocationActivity" />
         <activity android:name="com.acheiAqui.View.ProfileShopActivity" />
 

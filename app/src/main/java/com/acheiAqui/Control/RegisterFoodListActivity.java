@@ -23,7 +23,6 @@ import acheiaqui.com.acheiAqui.R;
 public class RegisterFoodListActivity extends AppCompatActivity
 {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
-    private TextView food,food1, food2,food3,food4,food5,food6;
     private CheckBox checkFood, checkFood1, checkFood2, checkFood3, checkFood4, checkFood5, checkFood6;
     private StorageReference storageReference;
     private Button buttonRegister;
@@ -120,5 +119,5 @@ public class RegisterFoodListActivity extends AppCompatActivity
         }else {
             Toast.makeText(this, "É preciso informar as comidas oferecidas.", Toast.LENGTH_SHORT).show();
         }
-    }
+    } */
 }

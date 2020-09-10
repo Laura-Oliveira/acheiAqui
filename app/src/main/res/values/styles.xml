@@ -1,5 +1,5 @@
 <resources>
-    <!-- Base application theme. -->
+    <!-- Base application Theme -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
 
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,15 +8,34 @@
         <item name="backgroundColor">@color/backgroundColor</item>
     </style>
 
+    <!-- Checkbox Theme -->
     <style name="CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
         <item name="colorOnPrimary">@color/colorPrimary</item>
         <item name="colorOnSurface">@color/colorAccent</item>
         <item name="colorSecondary">@color/colorPrimaryDark</item>
         <item name="textAllCaps">true</item>
         <item name="fontFamily">sans-serif</item>
-        <item name="textAppearanceListItem"> @color/colorPrimary </item>
+        <item name="textAppearanceListItem">@color/colorPrimary</item>
         <item name="android:textSize">10pt</item>
 
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Splash Screen Theme -->
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/splash_screen_background</item>
     </style>
 
 </resources>

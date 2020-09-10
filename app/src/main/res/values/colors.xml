@@ -9,6 +9,7 @@
     <color name="color_hint_text">#4B0082</color>
     <color name="color_black"> #FAFAFA </color>
     <color name="txt_white">#ffffff</color>
+    <color name="splash_screen_background"> #051e0e</color>
 
     <!--
      <color name="cor_texto">#000</color>

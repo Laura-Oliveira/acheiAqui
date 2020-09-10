@@ -1,116 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
 
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.acheiAqui.View.ProfileShopActivity">
 
-    <ImageView
-        android:id="@+id/profile_image_shop"
+    <!-- =============== SHOP PHOTO AND TITLE =============== -->
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="182dp"
-        android:layout_marginBottom="10pt"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/profile_name_shop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/btn_text_color"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textSize="10pt"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:layout_marginBottom="10pt"
-        android:layout_gravity="center"
-        android:background="@color/colorPrimaryDark"
-        />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/label_info_shop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimaryDark"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textSize="8pt"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="@string/profile_info_shop"
-        android:layout_gravity="center"
-        />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/profile_image_shop"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:layout_marginBottom="10pt" />
 
-        <TextView
-            android:id="@+id/profile_info_shop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="8pt"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:layout_marginBottom="10pt"
-            android:layout_marginLeft="5pt"
-            />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/profile_name_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10pt"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textColor="@color/btn_text_color"
+                android:textSize="10pt"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/label_reference_point_shop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimaryDark"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textSize="8pt"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="@string/profile_referene_point"
-        android:layout_gravity="center"
-        />
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <TextView
-            android:id="@+id/profile_reference_point"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary"
-            android:textSize="8pt"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:layout_marginBottom="10pt"
-            android:layout_marginLeft="5pt"
-            />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/label_food_shop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimaryDark"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textSize="8pt"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="@string/profile_food_shop"
-        android:layout_gravity="center"
-        />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/profile_info_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                android:layout_marginLeft="30sp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="9pt" />
 
-    <TextView
-        android:id="@+id/profile_foods_shop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
-        android:textSize="8pt"
-        android:maxLines="7"
-        android:singleLine="true"
-        android:inputType="textMultiLine"
-        android:layout_marginLeft="5pt"
-        />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/label_reference_point_shop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/profile_referene_point"
+                android:textAllCaps="true"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/txt_white"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:padding="10sp"
+               />
 
-</LinearLayout>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/profile_reference_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="9pt" />
 
-</ScrollView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/label_food_shop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/profile_food_shop"
+                android:textAllCaps="true"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/txt_white"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:padding="10sp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/profile_foods_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLines="7"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="9pt"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

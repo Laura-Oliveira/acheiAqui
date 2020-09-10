@@ -8,6 +8,7 @@
     <color name="backgroundColor"> #BA68C8 </color>
     <color name="color_hint_text">#4B0082</color>
     <color name="color_black"> #FAFAFA </color>
+    <color name="txt_white">#ffffff</color>
 
     <!--
      <color name="cor_texto">#000</color>

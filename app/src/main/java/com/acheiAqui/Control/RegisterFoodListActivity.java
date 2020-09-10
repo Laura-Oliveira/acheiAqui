@@ -33,13 +33,13 @@ public class RegisterFoodListActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
 
-        food =  (TextView) findViewById(R.id.check_comida);
+      /*  food =  (TextView) findViewById(R.id.check_comida);
         food1 = (TextView) findViewById(R.id.check_comida1);
         food2 = (TextView) findViewById(R.id.check_comida2);
         food3 = (TextView) findViewById(R.id.check_comida3);
         food4 = (TextView) findViewById(R.id.check_comida4);
         food5 = (TextView) findViewById(R.id.check_comida5);
-        food6 = (TextView) findViewById(R.id.check_comida6);
+        food6 = (TextView) findViewById(R.id.check_comida6); */
         checkFood = (CheckBox) findViewById(R.id.check_box_comida);
         checkFood1 = (CheckBox) findViewById(R.id.check_box_comida1);
         checkFood2 = (CheckBox) findViewById(R.id.check_box_comida2);
@@ -68,25 +68,25 @@ public class RegisterFoodListActivity extends AppCompatActivity
 
         String shopFoods = "";
         if(checkFood.isChecked()){
-            shopFoods += (food.getText().toString()+"\n");
+            shopFoods += (checkFood.getText().toString()+"\n");
         }
         if(checkFood1.isChecked()){
-            shopFoods += (food1.getText().toString()+"\n");
+            shopFoods += (checkFood1.getText().toString()+"\n");
         }
         if(checkFood2.isChecked()){
-            shopFoods += (food2.getText().toString()+"\n");
+            shopFoods += (checkFood2.getText().toString()+"\n");
         }
         if(checkFood3.isChecked()){
-            shopFoods += (food3.getText().toString()+"\n");
+            shopFoods += (checkFood3.getText().toString()+"\n");
         }
         if(checkFood4.isChecked()){
-            shopFoods += (food4.getText().toString()+"\n");
+            shopFoods += (checkFood4.getText().toString()+"\n");
         }
         if(checkFood5.isChecked()){
-            shopFoods += (food5.getText().toString()+"\n");
+            shopFoods += (checkFood5.getText().toString()+"\n");
         }
         if(checkFood6.isChecked()){
-            shopFoods += (food6.getText().toString());
+            shopFoods += (checkFood6.getText().toString());
         }
 
 
@@ -119,5 +119,5 @@ public class RegisterFoodListActivity extends AppCompatActivity
         }else {
             Toast.makeText(this, "É preciso informar as comidas oferecidas.", Toast.LENGTH_SHORT).show();
         }
-    } */
+    }
 }

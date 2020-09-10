@@ -27,7 +27,7 @@
         android:onClick="registerNewShop"
         android:rotation="0"
         android:background="@android:color/background_dark"
-        app:srcCompat="@android:drawable/ic_input_add"
+        app:srcCompat="@drawable/ic_input_add"
         />
 
 </RelativeLayout>

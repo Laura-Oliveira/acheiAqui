@@ -37,8 +37,8 @@
         android:textColor="@color/btn_text_color"
         android:textStyle="bold"
         android:layout_weight="1"
-        android:onClick="nextPageButtonFoodList"
         android:layout_alignParentBottom="true"
+        android:onClick="nextPageButtonFoodList"
         >
     </com.google.android.material.button.MaterialButton>
 

@@ -97,7 +97,7 @@
                 android:id="@+id/input_register_info_shop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="text|textLongMessage"
+                android:inputType="textCapWords"
                 android:maxLines="3"
                 app:endIconMode="clear_text"
                 >
@@ -118,7 +118,7 @@
                 android:id="@+id/input_register_reference_point_shop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="text|textLongMessage"
+                android:inputType="textCapWords"
                 android:maxLines="2"
                 app:endIconMode="clear_text"
                 android:textColorHint="@color/color_hint_text"
@@ -140,9 +140,10 @@
                 android:text="@string/btn_register_next_page_shop"
                 android:textColor="@color/btn_text_color"
                 android:textStyle="bold"
-                android:onClick="nextPageButton"
                 android:layout_alignParentBottom="true"
                 android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="nextPageButton"
                 >
             </com.google.android.material.button.MaterialButton>
 

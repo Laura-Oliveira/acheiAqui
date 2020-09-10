@@ -104,12 +104,12 @@
         "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_map.png"
-    },
-    {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_shop_map.xml.flat",
         "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/ic_launcher_background_shop_map.xml"
+    },
+    {
+        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_map.png.flat",
+        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_map.png"
     },
     {
         "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui_round.png.flat",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/oem/Documents/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/73a5f75e47b16819fc428a5bd116fc4f/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/home/laura/.gradle/caches/transforms-2/files-2.1/b626de7b9bdc2c58919b3a7879165db8/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

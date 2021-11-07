@@ -1,5 +1,6 @@
 package com.acheiAqui.View;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,6 +14,7 @@ import android.provider.Settings;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -20,6 +22,8 @@ import android.widget.Toast;
 import com.acheiAqui.Control.LoginActivity;
 import com.acheiAqui.Model.Shop;
 import com.acheiAqui.Control.RegisterInfoShopActivity;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -38,6 +42,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.Map;
 
+import com.google.android.gms.maps.SupportMapFragment;
+
 import acheiaqui.com.acheiAqui.R;
 
 public class HomeActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
@@ -53,19 +59,21 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_home);
         mDatabase = FirebaseDatabase.getInstance().getReference();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        Intent intent = getIntent();
-        intent.getExtras();
-        if(intent.hasExtra("success")){
-            Toast.makeText(this, intent.getStringExtra("success"), Toast.LENGTH_SHORT).show();
+        if(!(mapFragment.equals(null)))
+        {
+            mapFragment.getMapAsync(this);
+            startGettingLocations();
+            getMarkers();
         }
-        mapFragment.getMapAsync(this);
-        startGettingLocations();
-        getMarkers();
+        else
+        {
+            Toast.makeText(this, "Loading Map", Toast.LENGTH_LONG).show();
+        }
+
     }
 
     //funcao que carrega o mapa quando o aplicativo e aberto
-    public void onMapReady(GoogleMap googleMap)
-    {
+    public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         /*
         MarkerOptions markerShop = new MarkerOptions();
@@ -222,14 +230,14 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
-    private void getMarkers(){
+    private void getMarkers() {
         mDatabase.child("shop").addListenerForSingleValueEvent(
                 new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         //Get map of users in datasnapshot
                         if (dataSnapshot.getValue() != null) {
-                            getAllLocations((Map<String,Object>) dataSnapshot.getValue());
+                            getAllLocations((Map<String, Object>) dataSnapshot.getValue());
                         }
                     }
 
@@ -241,8 +249,6 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void getAllLocations(Map<String, Object> locations) {
-
-
         for (Map.Entry<String, Object> entry : locations.entrySet()) {
             Shop shop = new Shop();
             Map singleLocation = (Map) entry.getValue();
@@ -268,16 +274,10 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
                     startActivity(intent);
                 }
             });
-
-
         }
-
-
     }
 
     private Marker addGreenMarker(final Shop shop, LatLng latLng) {
-
-
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
         markerOptions.title(shop.getName());
@@ -292,26 +292,47 @@ public class HomeActivity extends FragmentActivity implements OnMapReadyCallback
     //funcoes padroes da classe LocationListerner. Nao foi necessario sobrescreve-las para manipular o mapa
     //e a localizacao atual do usuario
     @Override
-    public void onStatusChanged(String provider,int status, Bundle extras){
+    public void onStatusChanged(String provider, int status, Bundle extras) {
 
     }
 
     @Override
-    public void onProviderEnabled(String provider){
+    public void onProviderEnabled(String provider) {
 
     }
 
     @Override
-    public void onProviderDisabled(String provider){
+    public void onProviderDisabled(String provider) {
 
     }
 
-    public void registerNewShop(View view){
+    public void registerNewShop(View view) {
 
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 
+    public void showActualLocation(View view) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+//            mMap.setMyLocationEnabled(true);
+//            mMap.getUiSettings().setMyLocationButtonEnabled(true);
 
+        }
+
+        Toast.makeText(this, "Botão clicado", Toast.LENGTH_LONG).show();
+        startGettingLocations();
+        getMarkers();
+//        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+//        mapFragment.getMapAsync(this);
+//        startGettingLocations();
+//        getMarkers();
+    }
 }
 

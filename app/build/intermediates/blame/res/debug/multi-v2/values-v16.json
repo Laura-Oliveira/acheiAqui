@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/oem/Documents/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/1a8d40126fd31e284566c4c1abcb20d4/core-1.3.1/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/73a5f75e47b16819fc428a5bd116fc4f/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/home/laura/.gradle/caches/transforms-2/files-2.1/b626de7b9bdc2c58919b3a7879165db8/appcompat-1.2.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/laura/.gradle/caches/transforms-2/files-2.1/0cf7cfb8fb10e802917435dd07f91aa7/core-1.3.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/oem/Documents/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/73a5f75e47b16819fc428a5bd116fc4f/appcompat-1.2.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
-                    }
-                },
-                {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/d518f240e5d024bd2d2626711c89d7eb/material-1.3.0-alpha02/res/values-v23/values-v23.xml",
+                    "source": "/home/laura/.gradle/caches/transforms-2/files-2.1/c21f256903a2ffafbb26b1511337b8ee/material-1.3.0-alpha02/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -34,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/oem/.gradle/caches/transforms-2/files-2.1/781fab38bfc6f49b5639155a246c9eed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/home/laura/.gradle/caches/transforms-2/files-2.1/744c9bd7aef566532e776af82a49d734/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -50,6 +39,17 @@
                         "endLines": "52",
                         "endColumns": "12",
                         "endOffsets": "3669"
+                    }
+                },
+                {
+                    "source": "/home/laura/.gradle/caches/transforms-2/files-2.1/b626de7b9bdc2c58919b3a7879165db8/appcompat-1.2.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
                     }
                 }
             ]

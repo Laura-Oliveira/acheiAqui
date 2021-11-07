@@ -1,514 +1,518 @@
 [
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_splash_screen.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/splash_screen.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_splash_screen.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/splash_screen.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_profile_shop.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_profile_shop.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_splash_screen_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/splash_screen_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_splash_screen_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/splash_screen_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_splash_screen_background.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/splash_screen_background.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_achei_aqui_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/achei_aqui_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/menu_menu_info_shop.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/menu/menu_info_shop.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_input_add_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/input_add_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_input_add.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/input_add.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop_map_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop_map_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/achei_aqui_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_achei_aqui_background.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/achei_aqui_background.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_splash_screen_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/splash_screen_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_input_add_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/input_add_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_input_add_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/input_add_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_splash_screen.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/splash_screen.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/achei_aqui_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop_map_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop_map_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_input_add.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/input_add.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_splash_screen.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_shop.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/ic_launcher_background_shop.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_splash_screen_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/splash_screen_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_here_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_here_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_here_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_here_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_here_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_here_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_input_add.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/input_add.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_input_add.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/input_add.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_splash_screen_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/splash_screen_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_achei_aqui_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/achei_aqui_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/achei_aqui.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_achei_aqui_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/achei_aqui_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_splash_screen.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/splash_screen.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_achei_aqui_background.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/achei_aqui_background.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_splash_screen_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_food_list.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_food_list.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_shop_map.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/ic_launcher_background_shop_map.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop_map_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop_map_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/achei_aqui_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_here.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_here.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_input_add.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/input_add.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_achei_aqui.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/achei_aqui.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_splash_screen_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/splash_screen_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_achei_aqui_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/achei_aqui_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_splash_screen_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/splash_screen_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_achei_aqui_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/achei_aqui_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_confirm_shop.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_confirm_shop.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_achei_aqui.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/achei_aqui.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_splash_screen_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_confirm_shop.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_confirm_shop.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_here_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_here_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_input_add_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/input_add_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_map_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_map_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_here_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_here_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_here_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_here_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_shop_map.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/ic_launcher_background_shop_map.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_achei_aqui_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/achei_aqui_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_here_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_here_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop_map_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop_map_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_achei_aqui_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/achei_aqui_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_here.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/ic_launcher_background_here.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_splash_screen_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/splash_screen_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_input_add.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/input_add.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_achei_aqui_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/achei_aqui_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_splash_screen.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/splash_screen.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_input_add_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/input_add_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_input_add.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/ic_input_add.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/achei_aqui.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_input_add_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/input_add_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_achei_aqui_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/achei_aqui_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_input_add.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/input_add.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_achei_aqui.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/achei_aqui.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop_map.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop_map.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_splash_screen_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/splash_screen_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_input_add_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/input_add_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop_map_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop_map_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop_map.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop_map.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_maps.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_splash_screen.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/splash_screen.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_splash_screen_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/splash_screen_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_shop.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/ic_launcher_background_shop.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_profile_shop.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_profile_shop.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_achei_aqui.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/achei_aqui.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_splash_screen.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/splash_screen.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_here_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_here_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_register_shop.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_register_shop.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_achei_aqui_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/achei_aqui_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background_here.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/ic_launcher_background_here.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_splash_screen.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/splash_screen.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_splash_screen_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/splash_screen_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_achei_aqui_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/achei_aqui_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_achei_aqui_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/achei_aqui_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop_map.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop_map.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_map_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_map_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_splash_screen.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_input_add_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/input_add_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_input_add.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/input_add.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_here.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_here.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_here_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_here_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_input_add_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/input_add_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_shop_map_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_shop_map_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_splash_screen_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/splash_screen_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_achei_aqui.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/achei_aqui.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_input_add_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/input_add_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_achei_aqui_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/achei_aqui_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_shop_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_shop_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_achei_aqui_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/achei_aqui_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_input_add.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/input_add.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_input_add.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/input_add.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_login.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_input_add.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/ic_input_add.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_register_location.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_register_location.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_input_add.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/input_add.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_splash_screen.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/splash_screen.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/ic_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_achei_aqui_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/achei_aqui_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_achei_aqui.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/achei_aqui.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_here_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_here_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_splash_screen_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/splash_screen_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_food_list.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_food_list.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_achei_aqui_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/achei_aqui_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_home.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_achei_aqui_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/achei_aqui_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_shop_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_shop_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/menu_menu_info_shop.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/menu/menu_info_shop.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_achei_aqui.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/achei_aqui.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_input_add_background.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/input_add_background.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_register_shop.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/layout/activity_register_shop.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_achei_aqui_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/achei_aqui_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop_map_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop_map_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_splash_screen.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_shop.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_shop.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_splash_screen.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/splash_screen.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_input_add.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/input_add.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_achei_aqui.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/achei_aqui.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_input_add_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/input_add_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_splash_screen_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/splash_screen_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_input_add_background.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/input_add_background.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_splash_screen_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/splash_screen_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/drawable_input_add_foreground.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/drawable/input_add_foreground.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_splash_screen_background.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/splash_screen_background.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_splash_screen_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_shop_map_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_shop_map_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/drawable_input_add_foreground.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/drawable/input_add_foreground.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_achei_aqui.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/achei_aqui.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop_map_round.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop_map_round.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_here.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_here.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground_shop.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_shop.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground_shop_map.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_shop_map.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_achei_aqui.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xhdpi/achei_aqui.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_achei_aqui_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/achei_aqui_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_input_add_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-mdpi/input_add_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_shop_map_round.xml.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-anydpi-v26/ic_shop_map_round.xml"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/layout_activity_register_location.xml.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/layout/activity_register_location.xml"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground_here.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_here.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_splash_screen_foreground.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/splash_screen_foreground.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-mdpi_splash_screen_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-mdpi/splash_screen_foreground.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/oem/Documents/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/oem/Documents/acheiAqui/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xhdpi_splash_screen_foreground.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xhdpi/splash_screen_foreground.png"
+    },
+    {
+        "merged": "/home/laura/Documents/Achei Aqui/acheiAqui/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_splash_screen_round.png.flat",
+        "source": "/home/laura/Documents/Achei Aqui/acheiAqui/app/src/main/res/mipmap-xxhdpi/splash_screen_round.png"
     }
 ]
